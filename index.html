@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Marcas de público A e B no Carnaval 2025 e 2026: fotos, vídeos, onde foram feitas, análise dos mecanismos e guia para a próxima ação.">
+<meta property="og:title" content="Carnaval de Camarote">
+<meta property="og:description" content="Onde o alto padrão pulou carnaval: ações de marcas premium em 2025 e 2026, com análise e guia.">
+<meta property="og:image" content="img/28e43392.webp">
+<title>Carnaval de Camarote</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: seções alternam noite (escuro) e dia (branco e cinza frio). Abertura com mosaico de fotos reais correndo, ideias em trilho horizontal, vídeos, marcas filtráveis com gaveta, endereços, análise em matriz, jornada da noite, guia de planejamento. Visual fixo, não segue o tema do sistema. */
+:root{
+  color-scheme:dark;
+  --bg:#0b0918;--card:#141128;--card2:#1c1836;--fg:#f4f3f9;--suave:#aaa4c4;--linha:rgba(214,206,255,.13);
+  --ouro:#f2c14e;--rosa:#ff5fa2;--turquesa:#37e0c4;--azul:#6fa8ff;--violeta:#b492ff;--laranja:#ff8a4c;--lima:#a7e36b;--prata:#cfd3e6;
+  --f-display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --f-corpo:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-dado:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --raio:14px;
+}
+.escuro{color-scheme:dark;--bg:#0b0918;--card:#141128;--card2:#1c1836;--fg:#f4f3f9;--suave:#aaa4c4;--linha:rgba(214,206,255,.13);
+  --ouro:#f2c14e;--rosa:#ff5fa2;--turquesa:#37e0c4;--azul:#6fa8ff;--violeta:#b492ff;--laranja:#ff8a4c;--lima:#a7e36b;--prata:#cfd3e6}
+.claro,.cinza{color-scheme:light;--bg:#ffffff;--card:#f2f3f7;--card2:#e7e9f0;--fg:#16131f;--suave:#595470;--linha:rgba(22,19,31,.11);
+  --ouro:#946400;--rosa:#c42563;--turquesa:#0a7d6c;--azul:#2159c2;--violeta:#6a3fc6;--laranja:#bb4a14;--lima:#3f7510;--prata:#50556b}
+.cinza{--bg:#eceef4;--card:#ffffff;--card2:#f4f5f9}
+.escuro,.claro,.cinza{background:var(--bg);color:var(--fg)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#0b0918;color:#f4f3f9;font:400 15px/1.6 var(--f-corpo);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--ouro);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+.eyebrow{font:500 11px/1.3 var(--f-dado);letter-spacing:.14em;text-transform:uppercase;color:var(--suave);margin:0}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;font-optical-sizing:none;font-variation-settings:"opsz" 14;text-wrap:balance;margin:0}
+h2{font-size:clamp(32px,4.8vw,58px);line-height:1.02;font-style:italic;letter-spacing:-.01em;margin-top:10px}
+.sec{padding-block:clamp(64px,9vw,120px)}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px 48px;margin-bottom:40px}
+.sec-head p.lead{max-width:54ch;color:var(--suave);margin:0}
+.foto{position:relative;overflow:hidden;background:var(--card2)}
+.foto img{width:100%;height:100%;object-fit:cover}
+.credito{position:absolute;right:8px;bottom:8px;font:500 10.5px/1 var(--f-dado);color:#fff;background:rgba(0,0,0,.55);padding:6px 9px;border-radius:6px;letter-spacing:.02em}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;min-height:min(92vh,860px);display:flex;align-items:flex-end}
+.mosaico{position:absolute;inset:-10% -5%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;transform:rotate(-6deg) scale(1.08);opacity:.55}
+.coluna{display:flex;flex-direction:column;gap:12px}
+.coluna .foto{border-radius:12px;aspect-ratio:4/5}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,9,24,.35) 0%,rgba(11,9,24,.55) 40%,#0b0918 92%),radial-gradient(80% 60% at 20% 80%,rgba(11,9,24,.9),transparent 70%)}
+#paetes{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2}
+.hero-in{position:relative;z-index:3;padding-block:140px clamp(40px,6vw,72px);width:100%}
+.hero h1{font-size:clamp(48px,9.5vw,132px);line-height:.92;letter-spacing:-.02em;max-width:12ch}
+.hero h1 em{color:var(--ouro)}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em}
+.hero h1 .w>span{display:inline-block}
+.hero .lede{max-width:58ch;color:#d9d5ea;font-size:clamp(15px,1.6vw,18px);margin:26px 0 0}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--linha);border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;margin-top:40px;max-width:760px;backdrop-filter:blur(8px)}
+.stat{background:rgba(11,9,24,.78);padding:16px 20px}
+.stat b{display:block;font:600 clamp(28px,4vw,42px)/1 var(--f-display);font-variation-settings:"opsz" 14;font-variant-numeric:tabular-nums}
+.stat span{font:500 11px/1.3 var(--f-dado);letter-spacing:.1em;text-transform:uppercase;color:var(--suave)}
+@media (max-width:560px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.mosaico{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.faixa{overflow:hidden;padding-block:16px;white-space:nowrap;border-block:1px solid var(--linha)}
+.faixa-track{display:inline-flex;gap:40px;padding-right:40px;font:italic 600 22px/1 var(--f-display);font-variation-settings:"opsz" 14;color:var(--suave)}
+.faixa-track span::after{content:"✦";font-style:normal;font-size:12px;margin-left:40px;color:var(--ouro);vertical-align:middle}
+
+/* DESTAQUES */
+.trilho{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+@media (max-width:900px){.trilho{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.trilho{grid-template-columns:1fr}}
+.trilho.h{display:flex;gap:28px;width:max-content;padding-right:10vw}
+.trilho.h .ideia{width:min(560px,42vw);flex:none}
+.ideia{display:flex;flex-direction:column;text-align:left;background:var(--card);border:1px solid var(--linha);border-radius:18px;padding:0;color:inherit;font:inherit;cursor:pointer;overflow:hidden;transition:box-shadow .4s,transform .4s}
+.ideia:hover{box-shadow:0 24px 60px -24px rgba(22,19,31,.35)}
+.ideia .foto{aspect-ratio:16/10}
+.ideia .foto img{transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.ideia:hover .foto img{transform:scale(1.06)}
+.ideia .rank{position:absolute;left:18px;top:14px;font:italic 600 64px/1 var(--f-display);font-variation-settings:"opsz" 14;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.45)}
+.ideia .corpo{display:flex;flex-direction:column;gap:10px;padding:22px 24px 24px;flex:1}
+.ideia .marca{font:600 12px/1 var(--f-dado);letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.ideia h3{font-size:28px;line-height:1.08;font-style:italic}
+.ideia p{margin:0;color:var(--suave);font-size:14.5px}
+.onde{display:flex;gap:8px;align-items:flex-start;font-size:13px;margin-top:auto;padding-top:12px;border-top:1px solid var(--linha)}
+.onde svg{flex:none;margin-top:3px}
+#destaques{overflow:hidden}
+
+/* VÍDEOS */
+.videos{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px;scrollbar-width:thin;scrollbar-color:var(--card2) transparent}
+.video{flex:none;width:min(340px,78vw);scroll-snap-align:start;text-decoration:none;display:flex;flex-direction:column;gap:10px}
+.video .foto{aspect-ratio:16/9;border-radius:12px}
+.video .foto img{transition:transform 1.4s cubic-bezier(.2,.8,.2,1),filter .4s}
+.video:hover .foto img{transform:scale(1.08);filter:brightness(.8)}
+.play{position:absolute;inset:0;margin:auto;width:58px;height:58px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;transition:transform .4s}
+.play::before{content:"";position:absolute;inset:-8px;border-radius:50%;border:1.5px solid rgba(255,255,255,.7);animation:pulso 2.4s infinite}
+.video:hover .play{transform:scale(1.1)}
+@keyframes pulso{0%{transform:scale(.9);opacity:1}100%{transform:scale(1.5);opacity:0}}
+.dur{position:absolute;left:8px;bottom:8px;font:500 11px/1 var(--f-dado);color:#fff;background:rgba(0,0,0,.65);padding:6px 9px;border-radius:6px}
+.video b{font-weight:600;font-size:15px;line-height:1.35}
+.video small{font:500 11.5px var(--f-dado);color:var(--suave);display:block;margin-top:3px}
+.video .mk{color:var(--c)}
+.setas{display:flex;gap:8px}
+.seta{width:44px;height:44px;border-radius:50%;border:1px solid var(--linha);background:transparent;color:var(--fg);cursor:pointer;font-size:18px}
+.seta:hover{background:var(--card)}
+
+/* FILTROS + GRADE */
+.filtros{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-block:1px solid var(--linha);padding-block:12px;margin-bottom:28px}
+.filtros .wrap{display:flex;flex-direction:column;gap:9px}
+.linha-f{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;align-items:center}
+.linha-f::-webkit-scrollbar{display:none}
+.linha-f .rot{flex:none;font:500 11px/1.3 var(--f-dado);letter-spacing:.12em;text-transform:uppercase;color:var(--suave);width:84px}
+.chip{flex:none;border:1px solid var(--linha);background:var(--card);color:var(--fg);font:500 13px/1 var(--f-corpo);padding:8px 13px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s;display:inline-flex;align-items:center;gap:7px}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--c,var(--suave))}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.busca{flex:1 1 180px;min-width:0;max-width:300px;background:var(--card);border:1px solid var(--linha);border-radius:999px;color:var(--fg);font:500 13px var(--f-corpo);padding:8px 14px}
+.busca::placeholder{color:var(--suave)}
+.contagem{font:500 12px var(--f-dado);color:var(--suave);margin-left:auto;flex:none}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.card{display:flex;flex-direction:column;text-align:left;background:var(--card);border:1px solid var(--linha);border-radius:16px;padding:0;color:inherit;font:inherit;cursor:pointer;overflow:hidden;min-width:0;transition:box-shadow .4s}
+.card:hover{box-shadow:0 20px 50px -24px rgba(22,19,31,.4)}
+.card .foto{aspect-ratio:16/10}
+.card .foto img{transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.card:hover .foto img{transform:scale(1.07)}
+.card .corpo{display:flex;flex-direction:column;gap:8px;padding:18px 20px 20px;flex:1}
+.top-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.cat{font:500 11px/1.3 var(--f-dado);letter-spacing:.1em;text-transform:uppercase;color:var(--c);display:inline-flex;align-items:center;gap:6px}
+.cat::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
+.n{font:500 11px var(--f-dado);color:var(--suave)}
+.card h3{font-size:30px;line-height:1;font-style:italic}
+.card .sub{font-size:12px;color:var(--suave);margin:-2px 0 0}
+.card .res{margin:0;font-size:14px;line-height:1.5}
+.cidades{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+.cid{font:500 11px/1 var(--f-dado);padding:6px 9px;border-radius:6px;background:var(--card2);color:var(--suave)}
+.vazio{grid-column:1/-1;text-align:center;color:var(--suave);padding:40px 0}
+.fora{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:18px}
+.fora a{display:flex;gap:14px;align-items:center;text-decoration:none;border:1px dashed var(--linha);border-radius:14px;padding:12px;background:var(--bg)}
+.fora .foto{width:84px;height:84px;border-radius:10px;flex:none}
+.fora b{font:italic 600 20px/1.1 var(--f-display);font-variation-settings:"opsz" 14}
+.fora p{margin:4px 0 0;font-size:13px;color:var(--suave);line-height:1.45}
+
+/* ENDEREÇOS */
+.ends{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media (max-width:820px){.ends{grid-template-columns:1fr}}
+.end{position:relative;border-radius:18px;overflow:hidden;min-height:340px;display:flex;align-items:flex-end;isolation:isolate}
+.end .foto{position:absolute;inset:0;z-index:-2}
+.end::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(11,9,24,.1),rgba(11,9,24,.92) 70%)}
+.end .in{padding:24px;display:flex;flex-direction:column;gap:8px;width:100%}
+.end h3{font-size:30px;font-style:italic;line-height:1.05;color:#fff}
+.end .loc{font:500 12px var(--f-dado);color:#d4d0e6}
+.end .num{font-size:13px;color:#d4d0e6}
+.end .marcas{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.end .marcas span{font-size:12px;padding:6px 12px;border:1px solid rgba(255,255,255,.28);border-radius:999px;color:#fff;background:rgba(255,255,255,.06)}
+.end .vlink{position:absolute;top:16px;right:16px;display:inline-flex;gap:8px;align-items:center;font:500 12px var(--f-dado);color:#16131f;background:#fff;border-radius:999px;padding:8px 12px;text-decoration:none}
+
+/* ANÁLISE: MATRIZ */
+.mat-wrap{overflow-x:auto;border:1px solid var(--linha);border-radius:16px;background:var(--bg)}
+.mat{color:var(--fg);font-family:var(--f-corpo);border-collapse:collapse;width:100%;min-width:760px;font-size:13px}
+.mat th,.mat td{padding:9px 10px;border-bottom:1px solid var(--linha);text-align:center}
+.mat thead th{font:500 11px/1.3 var(--f-dado);letter-spacing:.06em;text-transform:uppercase;color:var(--suave);vertical-align:bottom;position:sticky;top:0;background:var(--bg)}
+.mat thead th.ativo{color:var(--fg)}
+.mat tbody th{text-align:left;font:italic 600 17px/1.1 var(--f-display);font-variation-settings:"opsz" 14;white-space:nowrap;cursor:pointer}
+.mat tbody th:hover{color:var(--c)}
+.mat tbody tr:last-child td,.mat tbody tr:last-child th{border-bottom:0}
+.dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--c)}
+.mat td.vazio-d::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--linha)}
+.mat tfoot td,.mat tfoot th{font:500 12px var(--f-dado);color:var(--suave);padding-top:12px;text-align:center}
+.mat tfoot th{text-align:left}
+.barra-m{height:6px;border-radius:9px;background:var(--fg);margin:6px auto 0;transform-origin:left}
+.mat .dim td,.mat .dim th{opacity:.25}
+.mecs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--linha);border:1px solid var(--linha);border-radius:16px;overflow:hidden;margin-top:28px}
+.mec{background:var(--bg);padding:22px}
+.mec h4{font-size:22px;font-style:italic;line-height:1.1;margin-bottom:8px}
+.mec p{margin:0;font-size:14px;color:var(--suave)}
+.mec b.q{display:block;font:500 12px var(--f-dado);color:var(--fg);margin-bottom:6px}
+
+/* JORNADA */
+.jornada{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;position:relative}
+.jornada::before{content:"";position:absolute;left:0;right:0;top:27px;height:2px;background:linear-gradient(90deg,var(--azul),var(--rosa),var(--ouro),var(--violeta),var(--lima),var(--laranja));transform-origin:left}
+.etapa{padding:0 14px 0 0;position:relative}
+.etapa .hora{width:56px;height:56px;border-radius:50%;background:var(--bg);border:2px solid var(--c);display:grid;place-items:center;font:500 12px var(--f-dado);color:var(--c);position:relative;z-index:1}
+.etapa h4{font-size:24px;font-style:italic;line-height:1.05;margin:18px 0 8px}
+.etapa p{margin:0 0 12px;font-size:13.5px;color:var(--suave)}
+.etapa .ms{display:flex;flex-wrap:wrap;gap:6px}
+.etapa .ms button{font:500 12px var(--f-corpo);padding:5px 10px;border-radius:999px;border:1px solid var(--linha);background:var(--card);color:var(--fg);cursor:pointer}
+.etapa .ms button:hover{border-color:var(--c)}
+@media (max-width:980px){.jornada{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 20px}.jornada::before{display:none}}
+@media (max-width:520px){.jornada{grid-template-columns:1fr}}
+.conexoes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:64px}
+@media (max-width:900px){.conexoes{grid-template-columns:1fr}}
+.conexao{border:1px solid var(--linha);border-radius:16px;padding:24px;background:var(--card)}
+.conexao h4{font-size:24px;font-style:italic;margin:8px 0 14px}
+.liga{display:flex;flex-direction:column;gap:12px}
+.liga div{display:grid;grid-template-columns:minmax(0,.9fr) auto minmax(0,1.3fr);gap:10px;align-items:center;font-size:13.5px}
+.liga b{font-weight:600}
+.liga i{font-style:normal;color:var(--ouro);font-family:var(--f-dado)}
+.liga span{color:var(--suave)}
+
+/* GUIA */
+.guia{display:flex;flex-direction:column;border-top:1px solid var(--linha)}
+.passo{display:grid;grid-template-columns:90px minmax(0,1.1fr) minmax(0,1fr);gap:16px 36px;padding-block:30px;border-bottom:1px solid var(--linha);align-items:start}
+.passo .num{font:italic 600 58px/.9 var(--f-display);font-variation-settings:"opsz" 14;color:var(--c)}
+.passo h3{font-size:clamp(26px,3vw,34px);font-style:italic;line-height:1.05;margin-bottom:10px}
+.passo p{margin:0;color:var(--suave);max-width:60ch}
+.passo .pergunta{background:var(--card);border-radius:12px;padding:16px 18px;font-size:14px}
+.passo .pergunta b{display:block;font:500 11px/1.3 var(--f-dado);letter-spacing:.12em;text-transform:uppercase;color:var(--suave);margin-bottom:6px}
+.passo .quem{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.passo .quem button{font:500 12px var(--f-corpo);padding:5px 10px;border-radius:999px;border:1px solid var(--linha);background:var(--bg);color:var(--fg);cursor:pointer}
+.passo .quem button:hover{border-color:var(--c)}
+@media (max-width:820px){.passo{grid-template-columns:1fr}}
+.duas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:56px}
+@media (max-width:820px){.duas{grid-template-columns:1fr}}
+.caixa{border-radius:18px;padding:28px;background:var(--card)}
+.caixa h3{font-size:30px;font-style:italic;margin-bottom:16px}
+.caixa ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px}
+.caixa li{font-size:14.5px;padding-left:18px;position:relative}
+.caixa li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--c)}
+.caixa li b{font-weight:600}
+.caixa li span{color:var(--suave)}
+
+/* LEMBRANÇA */
+.lembra{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+@media (max-width:820px){.lembra{grid-template-columns:1fr}}
+.barras{display:flex;flex-direction:column;gap:12px}
+.barra{display:grid;grid-template-columns:90px minmax(0,1fr) 44px;gap:12px;align-items:center;font-size:14px}
+.barra .t{height:10px;background:var(--card2);border-radius:99px;overflow:hidden}
+.barra .t i{display:block;height:100%;background:var(--ouro);border-radius:99px;transform-origin:left}
+.barra b{font:500 13px var(--f-dado);text-align:right;font-variant-numeric:tabular-nums}
+.nota{font-size:12px;color:var(--suave);margin-top:14px}
+.lista-m{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:16px}
+.lista-m li{border-left:2px solid var(--linha);padding-left:14px;font-size:14px;color:var(--suave)}
+.lista-m li b{color:var(--fg);font-weight:600}
+.lista-m a{color:var(--ouro);text-decoration:none;font:500 12px var(--f-dado)}
+footer{padding-block:36px 56px;color:var(--suave);font-size:13px;border-top:1px solid var(--linha)}
+footer p{max-width:84ch;margin:0 0 8px}
+
+/* GAVETA */
+.veu{position:fixed;inset:0;background:rgba(6,5,14,.66);z-index:20;backdrop-filter:blur(3px)}
+.gaveta{position:fixed;top:0;right:0;bottom:0;width:min(680px,100%);border-left:1px solid var(--linha);z-index:21;overflow-y:auto;overscroll-behavior:contain;padding:calc(env(safe-area-inset-top,0px) + 24px) clamp(18px,4vw,36px) calc(env(safe-area-inset-bottom,0px) + 40px)}
+.g-top{display:flex;justify-content:space-between;align-items:start;gap:16px}
+.fechar{flex:none;width:42px;height:42px;border-radius:50%;border:1px solid var(--linha);background:transparent;color:var(--fg);cursor:pointer;font-size:18px}
+.fechar:hover{background:var(--card2)}
+.gaveta h2{font-size:clamp(42px,7vw,68px);margin-top:14px}
+.g-sub{color:var(--suave);font-size:13px;margin:6px 0 0}
+.g-res{font:italic 500 21px/1.35 var(--f-display);font-variation-settings:"opsz" 14;margin:22px 0 8px;border-left:2px solid var(--c);padding-left:16px}
+.g-mecs{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.g-mecs span{font:500 11px var(--f-dado);padding:7px 11px;border-radius:6px;background:var(--card2);color:var(--fg)}
+.acao{border-top:1px solid var(--linha);padding-top:24px;margin-top:28px}
+.acao .foto{aspect-ratio:16/9;border-radius:12px;margin-bottom:18px}
+.acao-h{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.ano{font:500 11px/1 var(--f-dado);padding:6px 10px;border-radius:6px;background:var(--c);color:#0b0918}
+.ag{font:500 11.5px var(--f-dado);color:var(--suave)}
+.acao h3{font-size:28px;line-height:1.08;font-style:italic;margin-bottom:14px}
+.campo{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 14px;font-size:14px;margin:0 0 10px}
+.campo dt{font:500 11px/1.9 var(--f-dado);letter-spacing:.1em;text-transform:uppercase;color:var(--suave)}
+.campo dd{margin:0}
+@media (max-width:480px){.campo{grid-template-columns:1fr}}
+.alerta{font-size:12.5px;color:var(--ouro);background:color-mix(in srgb,var(--ouro) 12%,transparent);border-radius:8px;padding:8px 12px;margin:10px 0}
+.fontes{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.fontes a{font:500 12px var(--f-dado);text-decoration:none;padding:7px 11px;border-radius:8px;border:1px solid var(--linha);transition:border-color .25s,color .25s}
+.fontes a:hover{border-color:var(--c);color:var(--c)}
+.g-videos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+.g-videos .video{width:auto}
+@media (max-width:480px){.g-videos{grid-template-columns:1fr}}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+
+<header class="hero escuro">
+  <div class="mosaico" id="mosaico" aria-hidden="true"></div>
+  <canvas id="paetes" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <p class="eyebrow" id="hero-eyebrow">Levantamento e análise · carnavais de 2025 e 2026 · público A e B</p>
+    <h1 id="hero-title" aria-label="Onde o alto padrão pulou carnaval"><span class="w"><span>Onde</span></span> <span class="w"><span>o</span></span> <span class="w"><span><em>alto</em></span></span> <span class="w"><span><em>padrão</em></span></span> <span class="w"><span>pulou</span></span> <span class="w"><span>carnaval</span></span></h1>
+    <p class="lede">Marcas premium no Rio, em São Paulo, Salvador, Recife e Olinda: fotos e vídeos do que foi feito, onde, por que chamou atenção, como as ações se conectam e o que considerar ao desenhar a próxima para esse público.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<div class="faixa escuro" aria-hidden="true"><div class="faixa-track" id="faixa"></div></div>
+
+<main>
+  <section class="sec claro" id="destaques">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">As ideias que mais se destacaram</p><h2>Seis que valem o briefing</h2></div>
+      <p class="lead">Ordem por originalidade do formato e ajuste ao público de alta renda. Quase nenhuma marca divulgou resultado medido, então o critério é qualitativo. Toque para ver a ação completa.</p>
+    </div>
+    <div class="wrap"><div class="trilho" id="top"></div></div>
+  </section>
+
+  <section class="sec escuro" id="videos">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Assista</p><h2>O que aconteceu, em vídeo</h2></div>
+      <div class="setas"><button class="seta" id="v-esq" aria-label="Vídeos anteriores">←</button><button class="seta" id="v-dir" aria-label="Próximos vídeos">→</button></div>
+    </div>
+    <div class="wrap"><div class="videos" id="lista-videos"></div></div>
+  </section>
+
+  <section class="cinza" id="marcas" style="padding-top:clamp(64px,9vw,120px);padding-bottom:clamp(64px,9vw,120px)">
+    <div class="wrap sec-head" style="margin-bottom:24px">
+      <div><p class="eyebrow">Organizado por marca</p><h2>Quem esteve na avenida</h2></div>
+      <p class="lead">Filtre por praça ou categoria. Cada cartão abre as ações com foto, local, ano, agência, vídeos e links das matérias.</p>
+    </div>
+    <div class="filtros">
+      <div class="wrap">
+        <div class="linha-f" id="f-cidade" role="group" aria-label="Filtrar por praça"><span class="rot">Praça</span></div>
+        <div class="linha-f" id="f-cat" role="group" aria-label="Filtrar por categoria"><span class="rot">Categoria</span></div>
+        <div class="linha-f"><span class="rot">Buscar</span><input id="busca" class="busca" type="search" placeholder="Marca, camarote, agência…" aria-label="Buscar"><span class="contagem" id="contagem"></span></div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="grade" id="grade"></div>
+      <p class="eyebrow" style="margin-top:64px">Fora do recorte A e B, mas vale olhar</p>
+      <div class="fora" id="fora"></div>
+    </div>
+  </section>
+
+  <section class="sec escuro" id="enderecos">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Onde foram feitas</p><h2>Os endereços que concentram o luxo</h2></div>
+      <p class="lead">O premium não disputa a rua, disputa endereço. Estes são os palcos com mais marcas A e B por metro quadrado.</p>
+    </div>
+    <div class="wrap"><div class="ends" id="lista-end"></div></div>
+  </section>
+
+  <section class="sec claro" id="analise">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Análise · como elas trabalharam</p><h2>Sete mecanismos por trás das ações</h2></div>
+      <p class="lead">Cada ação foi decomposta no que ela de fato fez pelo convidado. A matriz mostra quais mecanismos cada marca combinou. Passe o mouse num mecanismo para destacar quem usou.</p>
+    </div>
+    <div class="wrap">
+      <div class="mat-wrap"><table class="mat" id="matriz"></table></div>
+      <div class="mecs" id="mecs"></div>
+    </div>
+  </section>
+
+  <section class="sec escuro" id="conexoes">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Análise · o que está conectado</p><h2>Uma noite dividida entre marcas</h2></div>
+      <p class="lead">Lidas juntas, as ações não competem: cada categoria ocupa um momento da noite do convidado, da chegada à volta para casa. Onde a jornada tem buraco, há espaço para quem chegar depois.</p>
+    </div>
+    <div class="wrap">
+      <div class="jornada" id="jornada"></div>
+      <div class="conexoes" id="lista-con"></div>
+    </div>
+  </section>
+
+  <section class="sec cinza" id="guia">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Para a próxima ação</p><h2>Como pensar carnaval para A e B</h2></div>
+      <p class="lead">Oito decisões, na ordem em que aparecem num planejamento. Cada uma vem com a pergunta que o briefing precisa responder e com quem fez isso bem.</p>
+    </div>
+    <div class="wrap">
+      <div class="guia" id="lista-guia"></div>
+      <div class="duas">
+        <div class="caixa" style="--c:var(--turquesa)"><h3>Territórios livres</h3><ul id="livres"></ul></div>
+        <div class="caixa" style="--c:var(--rosa)"><h3>Riscos para evitar</h3><ul id="riscos"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec escuro" id="lembranca">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Lembrança e menção</p><h2>Quem ficou na cabeça</h2></div>
+      <p class="lead">Não há pesquisa de lembrança só do público A e B. Os levantamentos disponíveis medem o folião em geral, por isso a cerveja domina.</p>
+    </div>
+    <div class="wrap lembra">
+      <div>
+        <p class="eyebrow" style="margin-bottom:16px">Primeira marca associada ao carnaval · MindMiners 2025</p>
+        <div class="barras" id="barras"></div>
+        <p class="nota">Amostra não divulgada. <a href="https://www.meioemensagem.com.br/comunicacao/carnaval-2025-as-marcas-mais-lembradas-pelos-folioes-brasileiros" target="_blank" rel="noopener" style="color:var(--ouro)">Meio &amp; Mensagem</a></p>
+      </div>
+      <ul class="lista-m">
+        <li><b>Buzzmonitor, 2026.</b> IA leu 133 mil imagens do Instagram com #carnaval entre 13 e 18/02. 33% tinham marca. Heineken aparece entre as cervejas sem ser grande patrocinadora; Bradesco, 99 e iFood lideram serviços. <br><a href="https://mercadoeconsumo.com.br/25/02/2026/marcas/heineken-fura-a-bolha-de-patrocinadores-e-e-uma-das-cervejas-com-mais-destaque-no-carnaval/" target="_blank" rel="noopener">mercadoeconsumo.com.br ↗</a></li>
+        <li><b>Monitoramento publicado pelo M&amp;M, 2026.</b> 3,7 milhões de posts, 91% no X. Mercado Pago e Nubank entre as marcas mais citadas, ao lado de Skol Beats, Brahma e iFood. <br><a href="https://www.meioemensagem.com.br/midia/carnaval-as-marcas-mais-mencionadas-nas-redes-sociais" target="_blank" rel="noopener">meioemensagem.com.br ↗</a></li>
+        <li><b>Wake Creators, 2025.</b> Com 455 influenciadores, Havaianas (14%) e Sundown (12%) foram as marcas de verão mais lembradas. <br><a href="https://promoview.com.br/pesquisa/marcas-carnaval-influenciadores-pesquisa" target="_blank" rel="noopener">promoview.com.br ↗</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="escuro">
+  <div class="wrap">
+    <p>Pesquisa feita em 29/09/2026 a partir de Meio &amp; Mensagem, Propmark, Exame, Promoview, Live Marketing, Brazil Journal, Forbes, Correio, Billboard e sites das próprias marcas. Fotos reproduzidas das matérias citadas, com o crédito do veículo em cada imagem. Vídeos abrem no YouTube.</p>
+    <p>Não foram encontradas ações documentadas de Itaú Personnalité, Santander Select, BTG, XP, American Express, Visa Infinite, BMW, Audi, Volvo, Porsche, Apple, Osklen ou Moët no período.</p>
+  </div>
+</footer>
+
+<div class="veu" id="veu" hidden></div>
+<aside class="gaveta escuro" id="gaveta" role="dialog" aria-modal="true" aria-labelledby="g-nome" hidden></aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"></script>
+<script>
+const IMGSRC = /*IMGSRC*/{"0e7cd583": "livemarketing.com.br", "10261ee7": "meioemensagem.com.br", "149e376f": "propmark.com.br", "15138963": "marcaspelomundo.com.br", "151730f8": "cnnbrasil.com.br", "1809e67d": "glp4.com", "1af13d8a": "billboard.com.br", "1c6e3afa": "news.samsung.com", "1ca4c291": "livemarketing.com.br", "2653c5e0": "promoview.com.br", "28e43392": "promoview.com.br", "3f1cdc8f": "news.airbnb.com", "3fd6a52b": "promoview.com.br", "4d9b19c7": "forbes.com.br", "5f68aaff": "meioemensagem.com.br", "61dcfee5": "robbreportbrasil.com.br", "6c7b5033": "promoview.com.br", "6cbed651": "portaltela.com", "70884d72": "correio24horas.com.br", "78f18630": "meioemensagem.com.br", "7f4e24b8": "brasilturis.com.br", "82552e0f": "foodbizbrasil.com", "924f3f20": "propmark.com.br", "947e6418": "letsgobahia.com.br", "96cc773a": "promoview.com.br", "987fa543": "marcasmais.com.br", "b08ca9d2": "promoview.com.br", "b7807c84": "promoview.com.br", "ba627c67": "wmccann.com", "bd12f793": "marcaspelomundo.com.br", "be78ebd4": "abramark.com.br", "c8fe806b": "rotacult.com.br", "cc549d7d": "meioemensagem.com.br", "e06d4b7e": "livemarketing.com.br", "e448f35a": "marcasmais.com.br", "e7ba1e55": "promoview.com.br", "ef364f8a": "sp24h.com.br", "ef8fa49f": "news.samsung.com", "f3f11255": "forbes.com.br", "f706eda2": "livemarketing.com.br", "f9ee9424": "promoview.com.br", "ff33899b": "exame.com"};
+const CAT = {"Bebida premium":"var(--ouro)","Beleza":"var(--rosa)","Finanças":"var(--turquesa)","Mobilidade":"var(--azul)","Tecnologia":"var(--violeta)","Moda":"var(--laranja)","Viagem e hotel":"var(--lima)","Mídia":"var(--prata)"};
+const CIDADES = ["Rio","São Paulo","Salvador","Recife e Olinda","Belo Horizonte","Digital"];
+const MEC = {
+ acesso:{n:"Acesso e escassez",c:"var(--ouro)",q:"O que só poucos vão viver?",p:"Poucos lugares, bastidor, altura, evento fechado. O desejo nasce de não caber todo mundo."},
+ produto:{n:"Produto em uso",c:"var(--rosa)",q:"O produto trabalha durante a festa?",p:"A marca aparece funcionando: celular que fotografa, carro que leva, maquiagem que segura, drinque que se prova."},
+ servico:{n:"Serviço que resolve a noite",c:"var(--turquesa)",q:"Qual perrengue some quando a marca está lá?",p:"Transporte, recarga, hidratação, retoque, segurança, pé cansado. Utilidade é o luxo que o público A reconhece."},
+ cultura:{n:"Cultura da praça",c:"var(--laranja)",q:"Isso só faria sentido aqui?",p:"Frevo em Olinda, axé em Salvador, cordão no Rio, fábrica na Bahia. A ação fala a língua do lugar."},
+ conteudo:{n:"Conteúdo e rosto conhecido",c:"var(--violeta)",q:"O que vai virar post, e de quem?",p:"Celebridade, squad de criadores, live, rádio. A ativação física existe também para ser vista fora dela."},
+ continuidade:{n:"Volta todo ano",c:"var(--azul)",q:"Isso aguenta a segunda e a terceira edição?",p:"O mesmo endereço ano após ano cria reconhecimento. Bradesco soma 13 e 15 anos, Pernod Ricard 19."},
+ objeto:{n:"Objeto de desejo",c:"var(--lima)",q:"O que o convidado leva para casa?",p:"Copo Stanley, leque, bucket hat, gift bag, camisa do camarote. A marca continua na foto do dia seguinte."}
+};
+
+const MARCAS = [
+{id:"diageo",nome:"Diageo",sub:"Johnnie Walker Gold Label · Tanqueray · Smirnoff · Ketel One",cat:"Bebida premium",cid:["Rio","São Paulo","Salvador","Recife e Olinda"],img:"bd12f793",mec:["acesso","produto","cultura","conteudo"],
+ res:"Um drinque desenhado para cada endereço: whisky no luxo carioca, gin com frevo em Olinda.",
+ acoes:[
+  {ano:"2026",img:"f3f11255",t:"High Energy nos endereços mais fechados do Rio",ag:"Não informada",onde:"Baile do Copa (Copacabana Palace), Camarote Alma Rio (Sapucaí), Baile da Arara e Camarote Nº1, Rio de Janeiro",
+   oque:"Gold Spritz de Johnnie Walker Gold Label no Baile do Copa e no Alma Rio. Tanqueray como patrocinador master do Baile da Arara, com carta de drinques de Néli Pereira incluindo opções sem álcool. Ketel One, Johnnie Walker e Tanqueray no Nº1.",
+   porque:"Presença só onde o público A está. Sarah Jessica Parker estreou no carnaval brasileiro dentro do Baile da Arara.",
+   alerta:"A matéria da Forbes é BrandVoice, conteúdo pago pela marca.",
+   f:["https://forbes.com.br/forbes-life/2026/02/brandvoice-diageo-tanqueray-e-johnnie-walker-gold-label-assinam-os-enderecos-mais-exclusivos-do-carnaval-carioca/","https://livemarketing.com.br/diageo-arma-operacao-360o-para-dominar-o-carnaval-2026"]},
+  {ano:"2026",img:"bd12f793",t:"Bar Tanqueray no Carvalheira e Caipi Preta Gil no Expresso 2222",ag:"Não informada",onde:"Carvalheira na Ladeira, Olinda · Camarote Expresso 2222, Salvador",
+   oque:"Bar exclusivo Tanqueray com o drinque Fitzgerald ligado ao frevo e open bar de Tanqueray e Johnnie Walker Black. Em Salvador, a caipiroska de siriguela Caipi Preta Gil.",
+   porque:"O drinque nasce do lugar em vez de chegar pronto do Rio. Gin e whisky entram pela festa premium do Nordeste.",
+   f:["https://marcaspelomundo.com.br/anunciantes/diageo-leva-johnnie-walker-tanqueray-e-smirnoff-para-os-principais-polos-do-carnaval-2026/"]}
+ ]},
+{id:"chandon",nome:"Chandon",sub:"Moët Hennessy · Chandon Passion",cat:"Bebida premium",cid:["Rio","São Paulo","Salvador","Recife e Olinda"],img:"28e43392",mec:["produto","conteudo"],
+ res:"25 ativações e garçons que invadem a pista carregando Jeroboam.",
+ acoes:[
+  {ano:"2026",img:"28e43392",t:"Carnaval Feito com Passion",ag:"Não informada · figurino de Gefferson Vila Nova, instalação de Isabela de Oliveira",onde:"Baile da Vogue e Baile do Copa, camarotes Verde e Rosa, Mar, Quem e Aura (Rio) · Camarote Bar Brahma (SP) · Villa (Salvador) · Carvalheira e Galo (Recife e Olinda)",
+   oque:"Os Chandon Waiters entravam na pista com garrafas Magnum e Jeroboam. Instalação no Baile da Vogue inspirada no Pampa e em Garibaldi, drinque CaipiPassion e um squad de criadores produzindo conteúdo ao vivo.",
+   porque:"A maior escala de uma marca premium no carnaval: 25 pontos em 4 capitais e alcance estimado de 13 milhões de pessoas.",
+   f:["https://www.promoview.com.br/chandon-lanca-estrategia-360o-e-transforma-carnaval-em-plataforma-de-marca","https://janela.com.br/2026/02/02/chandon-faz-ativacoes-no-carnaval-2026-em-25-pontos-pelo-pais/"]},
+  {ano:"2025",img:"b7807c84",t:"Presença em Salvador e Recife",ag:"Não informada",onde:"Camarote Club (Salvador) · Camarote Galo Oficial (Recife) · Baile da Vogue e Baile do Copa (Rio)",
+   oque:"Marca presente nos camarotes do Nordeste e nos dois bailes do Copacabana Palace.",porque:"Base para a expansão de 2026.",
+   alerta:"Detalhe da ativação não publicado.",f:["https://www.promoview.com.br/chandon-carnaval-2025/"]}
+ ]},
+{id:"mercadopago",nome:"Mercado Pago",sub:"Patrocinador oficial do Rio Carnaval",cat:"Finanças",cid:["Rio","São Paulo"],img:"78f18630",mec:["acesso","conteudo"],
+ res:"Dez pessoas por vez, a 25 metros acima da avenida.",
+ acoes:[
+  {ano:"2026",img:"78f18630",t:"Camarote Suspenso",ag:"Haute",onde:"Marquês de Sapucaí, Rio (setor 4 segundo o M&M, setor 9 segundo a Live Marketing) · pavilhão no Ibirapuera, São Paulo",
+   oque:"Plataforma içada a 25 m para 10 convidados, até seis subidas por noite nos quatro dias de desfile. Em São Paulo, pavilhão de mais de 1.000 m² no Ibirapuera.",
+   porque:"Estreia como patrocinador oficial com o formato mais escasso da Sapucaí. Gerou especulação espontânea sobre participantes do BBB 26 e colocou a marca entre as mais citadas nas redes.",
+   f:["https://www.meioemensagem.com.br/marketing/camarote-suspenso-mercado-pago-levara-bbbs-a-sapucai","https://revistalivemarketing.com.br/mercado-pago-estreia-no-rio-carnaval-com-camarote-suspenso-e-oferece-perspectiva-inedita-da-sapucai/"]}
+ ]},
+{id:"byd",nome:"BYD",sub:"Carros elétricos",cat:"Mobilidade",cid:["Rio","Salvador"],img:"1ca4c291",mec:["produto","servico","cultura","conteudo"],
+ res:"O carro saiu da vitrine e virou o transfer do convidado.",
+ acoes:[
+  {ano:"2026",img:"6cbed651",t:"BYD Carnaval Experience",ag:"Curators · direção criativa de Peu Santos",onde:"Quatro camarotes da Sapucaí, entre eles Quem O Globo e Nº1, Rio",
+   oque:"Sete elétricos levando convidados, clientes e influenciadores (Marina Ruy Barbosa, Adriane Galisteu, Gui Napolitano) entre os pontos da festa.",
+   porque:"Test-drive disfarçado de serviço. O produto passa a ser a própria experiência.",
+   f:["https://livemarketing.com.br/byd-conectou-mobilidade-eletrica-e-folia-nos-principais-camarotes-do-carnaval-2026","https://www.portaltela.com/noticias/economia/2026/02/16/byd-une-tecnologia-e-energia-no-camarote-quem-o-globo-na-sapucai/","https://propmark.com.br/byd-leva-influenciadores-com-carros-da-marca-para-carnaval/"]},
+  {ano:"2025 e 2026",img:"1ca4c291",t:"Ah, que bom você chegou",ag:"Nizan Guanaes e We",onde:"Camarote Salvador, circuito Barra-Ondina, Salvador",
+   oque:"Em 2025, Dolphin no Palco Praia com lounge de recarga. Em 2026, karaokê na multimídia do carro e shuttle dos convidados com Shark, King, Song Pro, Song Plus e Seal.",
+   porque:"Brinca com o hit da Banda Eva e amarra a marca à Bahia, onde fica a fábrica de Camaçari.",
+   f:["https://www.publicitarioscriativos.com/byd-aposta-no-carnaval-para-reforcar-presenca-cultural-no-brasil/","https://billboard.com.br/camarote-salvador-patrocinadores-carnaval-2026/"]}
+ ]},
+{id:"samsung",nome:"Samsung",sub:"Galaxy S25 Ultra",cat:"Tecnologia",cid:["Rio","Digital"],img:"ef8fa49f",mec:["produto","conteudo"],
+ res:"O celular virou a câmera oficial da Sapucaí.",
+ acoes:[
+  {ano:"2025",img:"ef8fa49f",t:"Galaxy S25 Ultra, câmera oficial",ag:"Não informada",onde:"Sambódromo da Sapucaí e Camarote Nº1, Rio",
+   oque:"Com os direitos de captação de imagem da LIESA, todos os fotógrafos do camarote trabalharam só com o S25 Ultra, com acesso a pontos estratégicos do sambódromo.",
+   porque:"Prova de produto no lugar de exposição de logo. Cada foto do desfile vira demonstração.",
+   f:["https://news.samsung.com/br/samsung-transforma-a-experiencia-fotografica-do-carnaval-2025-na-sapucai-com-o-novo-galaxy-s25-ultra"]},
+  {ano:"2026",img:"1c6e3afa",t:"#FeitoComGalaxy",ag:"Não informada",onde:"Redes sociais",
+   oque:"Desafio para foliões registrarem o carnaval em azul e roxo com o Galaxy.",porque:"Continuação digital da tese da câmera oficial.",
+   f:["https://news.samsung.com/br/o-melhor-do-carnaval-e-feitocomgalaxy-samsung-convida-folioes-a-registrarem-o-carnaval-em-cores-azul-e-roxo"]}
+ ]},
+{id:"bradesco",nome:"Bradesco",sub:"Com a bandeira Elo",cat:"Finanças",cid:["Salvador","Recife e Olinda","Rio"],img:"947e6418",mec:["servico","cultura","continuidade","objeto"],
+ res:"13 anos em Salvador, mais de 15 no Galo: o banco que volta todo ano.",
+ acoes:[
+  {ano:"2026",img:"947e6418",t:"Camarote Bradesco Píer e Mirante VIP com Elo",ag:"Não informada",onde:"Circuito Barra-Ondina e Camarote Club, Salvador",
+   oque:"Camarote próprio de 4 andares, 1.500 m² e 1.500 lugares. No Camarote Club, bonés, copos Stanley e roda de samba com Sasha Meneghel em parceria com a Elo. Patrocínio dos blocos Vumbora, Me Abraça e Nana e OOH nas três praças.",
+   porque:"A presença premium mais longa e mais integrada entre Salvador, Recife e Olinda.",
+   f:["https://letsgobahia.com.br/noticia/gente/sasha-meneghel-e-elo-celebram-cultura-brasileira-no-camarote-club-em-salvador","https://www.promoview.com.br/bradesco-carnaval-ativacoes/","https://glp4.com/noticia/10730/bradesco-amplia-presenca-no-carnaval-2026-com-ativacoes-culturais-em-salvador-recife-e-olinda.html"]},
+  {ano:"2026",img:"1809e67d",t:"Galo da Madrugada e Carvalheira na Ladeira",ag:"Não informada",onde:"Camarote oficial do Galo, Recife · Parque Memorial Arcoverde, Olinda",
+   oque:"Cota Apresenta do Galo há mais de 15 anos. Segundo ano no Carvalheira, festa premium de cerca de 10 mil pessoas por dia, com hidratação, recarga de celular, glitter ecológico e espaço para fotos.",
+   porque:"Serviço útil dentro da festa fechada que concentra a alta renda de Pernambuco.",
+   f:["https://www.promoview.com.br/bradesco-carnaval-ativacoes/","https://glp4.com/noticia/10730/bradesco-amplia-presenca-no-carnaval-2026-com-ativacoes-culturais-em-salvador-recife-e-olinda.html"]},
+  {ano:"Não confirmado",img:"ef364f8a",t:"Master do Nosso Camarote",ag:"Não informada",onde:"Sapucaí, setor 10, Rio",
+   oque:"Patrocínio master e meio de pagamento oficial, com pré-venda, desconto e parcelamento para correntistas, varanda exclusiva, hidratação e recarga.",
+   porque:"Camarote de cerca de 20 mil pessoas, com receita anual projetada de R$ 150 milhões.",
+   alerta:"A fonte não deixa claro se a lista de patrocinadores é de 2025 ou 2026.",
+   f:["https://www.sp24h.com.br/carnaval-rj-nosso-camarote","https://braziljournal.com/o-negocio-cada-vez-mais-animado-dos-camarotes-da-sapucai/"]}
+ ]},
+{id:"natura",nome:"Natura",sub:"Natura Musical",cat:"Beleza",cid:["Salvador","Recife e Olinda","São Paulo"],img:"15138963",mec:["produto","servico","cultura","continuidade"],
+ res:"Beleza tratada como cultura, com 20 anos de Natura Musical por trás.",
+ acoes:[
+  {ano:"2026",img:"15138963",t:"Tem Cultura, Tem Mistura, Tem Natura",ag:"Não informada",onde:"Camarote Expresso 2222, Edifício Oceania, Farol da Barra, Salvador",
+   oque:"Terceiro ano no camarote, com homenagem a Preta Gil. Oito postos de maquiagem e cabelo com Soraya Rocha, maquiadora da cantora, e lançamento do perfume Luna Nuit para cerca de 1.500 convidados por noite.",
+   porque:"A ação mais coerente com a cultura local em todo o levantamento.",
+   f:["https://marcaspelomundo.com.br/anunciantes/natura-ocupa-o-expresso-2222-com-beleza-cultura-e-homenagem-a-preta-gil-no-carnaval-de-salvador/","https://hojepr.com/natura-e-expresso-2222-parceria-renovada-para-celebrar-a-cultura-brasileira-e-o-legado-de-preta-gil/","https://jornalgrandebahia.com.br/2026/02/camarote-expresso-2222-homenageia-preta-gil-e-reune-artistas-patrocinadores-e-acoes-de-sustentabilidade-no-carnaval-de-salvador-2026/"]},
+  {ano:"2025",img:"cc549d7d",t:"Carnaval é pra Brilhar",ag:"Africa Creative",onde:"Casa Natura Musical, Pinheiros, SP · Camarote Expresso 2222, Salvador · Casa Estação da Luz, Olinda",
+   oque:"Iza, Taís Araújo e Lázaro Ramos, OOH em São Paulo e Salvador e campanha em TikTok, Spotify e Tinder. Casa em Olinda dedicada ao frevo e ao maracatu.",
+   porque:"Três praças com três linguagens, sem perder a plataforma musical.",
+   f:["https://www.meioemensagem.com.br/comunicacao/natura-usa-carnaval-para-reforcar-conexao-com-musica-e-arte"]}
+ ]},
+{id:"boticario",nome:"O Boticário",sub:"Perfumaria premium · BeautyBox",cat:"Beleza",cid:["Salvador","Recife e Olinda","Rio","São Paulo"],img:"96cc773a",mec:["produto","servico","conteudo"],
+ res:"15 ativações em cinco capitais e as linhas mais caras dentro do camarote.",
+ acoes:[
+  {ano:"2026",img:"149e376f",t:"A Beleza do Nosso Carnaval",ag:"LePub São Paulo (campanha) · Befoür (ativações)",onde:"Camarote Salvador (Espaço Zen), Galo da Madrugada, Baile da Arara, Camarote Bar Brahma no Anhembi (estreia) e blocos",
+   oque:"Filme-manifesto com Erika Moura, Valéria Valenssa e Juliana Paiva. No Camarote Salvador, spa com Nativa SPA e experimentação de Her Code e Malbec Black Legend no mirante. Ações para membros do BeautyBox.",
+   porque:"Usa o camarote para apresentar ao público A e B a perfumaria de maior preço da marca.",
+   f:["https://propmark.com.br/anunciantes/boticario-celebra-diversidade-do-carnaval-com-ativacoes-em-cinco-capitais/","https://www.promoview.com.br/agencia-befour-e-o-boticario-transformaram-carnaval-2026-em-plataforma-de-conexao-com-o-publico","https://exame.com/negocios/com-atracao-internacional-camarote-salvador-quer-movimentar-r-210-mi-em-2026/"]}
+ ]},
+{id:"eudora",nome:"Eudora",sub:"Grupo Boticário",cat:"Beleza",cid:["Rio","Salvador"],img:"2653c5e0",mec:["produto","servico","continuidade"],
+ res:"Dona do beauty lounge do Baile da Vogue há cinco anos seguidos.",
+ acoes:[
+  {ano:"2026",img:"2653c5e0",t:"Beauty lounge oficial e estreia em Salvador",ag:"Não informada",onde:"Baile da Vogue, Copacabana Palace, Rio · Camarote Salvador",
+   oque:"Quinto ano seguido no lounge de beleza do baile. Em Salvador, beauty bar de 8 cadeiras para lançar o Make Turbo.",
+   porque:"Continuidade no evento mais fotografado do carnaval carioca.",
+   f:["https://www.promoview.com.br/eudora-estreia-no-carnaval-de-salvador-e-reforca-estrategia-de-conexao-regional/","https://www.promoview.com.br/baile-da-vogue-2026-vira-vitrine-de-ativacoes-de-marca/"]},
+  {ano:"2025",img:"10261ee7",t:"Brilhe onde for",ag:"Wieden+Kennedy",onde:"Baile da Vogue, Copacabana Palace · Nosso Camarote, Sapucaí, Rio",
+   oque:"Quarto ano no Baile da Vogue, retoque de maquiagem no Nosso Camarote e o programa Eudora VIP Pass.",
+   porque:"Serviço de beleza como porta de entrada da marca.",
+   f:["https://www.meioemensagem.com.br/womentowatch/entre-samba-e-glamour-as-acoes-das-marcas-de-beleza-no-carnaval"]}
+ ]},
+{id:"loreal",nome:"L’Oréal",sub:"L’Oréal Paris · Elseve · Kérastase · MAC · La Roche-Posay",cat:"Beleza",cid:["Rio","São Paulo","Recife e Olinda"],img:"ba627c67",mec:["produto","servico","conteudo"],
+ res:"Um grupo inteiro espalhado entre camarote, baile e bloco da Anitta.",
+ acoes:[
+  {ano:"2025",img:"ba627c67",t:"Dona do Carnaval Todo",ag:"WMcCann",onde:"Camarotes Quem e Nº1, Rio · CarnaUOL e Vila Amazon, SP · Camarote Galo Paradise, Rua Imperial, Recife",
+   oque:"Lançamento do Elseve Glycolic Gloss com Anitta nos ensaios e no bloco, Uber Ads, Spotify e amostras na Smart Fit. Protetor Solar Expertise The Invisible levado ao Nordeste.",
+   porque:"Uma só campanha costurando camarote, mídia de mobilidade e academia.",
+   alerta:"Uma matéria situa o Galo Paradise em Salvador; ele fica em Recife.",
+   f:["https://wmccann.com/trabalhos/dona-do-carnaval-todo/","https://www.meioemensagem.com.br/marketing/marcas-investem-na-diversidade-das-festas-do-carnaval-brasileiro","https://www.loreal.com/pt-br/brazil/news/grupo/marcas-da-loreal-brasil-espalham-beleza-no-carnaval/"]},
+  {ano:"2026",img:"924f3f20",t:"Palco Rádio Globo e marcas de luxo do grupo",ag:"Não informada",onde:"Camarote Quem O Globo, Camarote Alma Rio (MAC), Baile da Vogue (Kérastase), Camarote Nº1 (La Roche-Posay), Rio",
+   oque:"Palco da Rádio Globo dentro do Quem, segundo ano nos ensaios da Anitta, salão La Roche-Posay no Nº1 e Kérastase entre os patrocinadores principais do Baile da Vogue.",
+   porque:"Cada marca do grupo entra no endereço que combina com seu preço.",
+   f:["https://propmark.com.br/anunciantes/baile-da-vogue-reune-marcas-e-ativacoes-no-copacabana-palace/","https://fernandovasconcelos.com/anunciantes/camarote-quem-o-globo-reune-20-marcas-parceiras-no-carnaval-carioca/","https://foodbizbrasil.com/marca-e-ativacoes/camarote-numero-1-patrocinadores-carnaval-2026/"]}
+ ]},
+{id:"pernod",nome:"Pernod Ricard",sub:"Beefeater · Absolut · Chivas · Jameson",cat:"Bebida premium",cid:["Rio","Salvador","Belo Horizonte","Recife e Olinda"],img:"be78ebd4",mec:["produto","conteudo","continuidade"],
+ res:"19 carnavais no Camarote Salvador e o Beefeater no centro do verão.",
+ acoes:[
+  {ano:"2026",img:"be78ebd4",t:"Um Verão de Possibilidades",ag:"Euphoria Creative",onde:"Baile da Vogue, Copacabana Palace, Rio",
+   oque:"Beefeater entre os patrocinadores principais do baile, DJ set aberto por Sabrina Sato e experiências de verão e carnaval para influenciadores.",
+   porque:"Tentativa de dar ao gin um território próprio de verão, não só de carnaval.",
+   f:["https://abramark.com.br/destaques/beefeater-celebra-um-verao-de-possibilidades-com-acoes-criadas-pela-euphoria-creative/","https://livemarketing.com.br/beefeater-ativa-um-verao-de-possibilidades-e-transforma-desejos-em-experiencias-iconicas"]},
+  {ano:"2026",img:"1af13d8a",t:"Bares Beefeater no Camarote Salvador",ag:"Não informada",onde:"Camarote Salvador, Barra-Ondina · Camarotes Nº1 e MAR, Rio",
+   oque:"Dois bares operados pelo Purgatório Bar com drinques autorais do tema Todos os Encantos. No Rio, mais de 30 eventos no período.",
+   porque:"Participação no carnaval cerca de 30% maior que no ano anterior.",
+   f:["https://billboard.com.br/camarote-salvador-patrocinadores-carnaval-2026/","https://aloalobahia.com/notas/pernod-ricard-aumenta-em-30-sua-participacao-no-carnaval","https://mundodomarketing.com.br/carnaval-2026-o-novo-campo-de-testes-do-marketing-das-marcas-de-bebidas"]}
+ ]},
+{id:"bacardi",nome:"Bacardi",sub:"Bombay Sapphire · Grey Goose · Patrón · Dewar’s",cat:"Bebida premium",cid:["Rio","Salvador"],img:"70884d72",mec:["produto","objeto"],
+ res:"Um ritual diferente para cada garrafa nos camarotes mais caros.",
+ acoes:[
+  {ano:"2026",img:"f9ee9424",t:"Portfólio premium na Sapucaí",ag:"Não informada",onde:"Camarotes MAR e Allegria, Sapucaí · festas Posh Club no Belmond Copacabana Palace, Rio",
+   oque:"Leques e minigarrafas de Bombay Sapphire, drinques e bucket hats de Grey Goose, ritual de tequila Patrón no Allegria e whisky Dewar’s no MAR.",
+   porque:"Brinde físico com assinatura de cada marca, pensado para aparecer em foto.",
+   f:["https://www.promoview.com.br/bacardi-aposta-em-estrategia-premium-no-carnaval/","https://revistalivemarketing.com.br/bacardi-leva-portfolio-premium-aos-principais-camarotes-da-sapucai-e-reforca-presenca-no-carnaval-2026/"]},
+  {ano:"2026",img:"70884d72",t:"No bar do Camarote Mar Salvador",ag:"Não informada",onde:"Circuito Barra-Ondina, Salvador",
+   oque:"O camarote carioca estreou em Salvador no modelo Private Experience, com Grey Goose, Bombay e Dewar’s no bar. Parceiros anunciados incluíam ainda Granado, Nestlé, Meta e LVMH.",
+   porque:"O luxo do Rio exportado para o circuito baiano.",
+   alerta:"Execução das ativações não confirmada em reportagem; a fonte principal é o anúncio de novembro de 2025.",
+   f:["https://www.correio24horas.com.br/salvador/famoso-camarote-do-rio-anuncia-inauguracao-no-carnaval-de-salvador-em-2026-1125","https://www.foliabahia.com.br/noticias-do-carnaval-de-salvador/camarote-mar-salvador-2026-a-energia-do-rio-invade-carnaval-da-bahia"]}
+ ]},
+{id:"granado",nome:"Granado",sub:"Perfumaria e cuidados",cat:"Beleza",cid:["Rio"],img:"c8fe806b",mec:["acesso","produto","servico"],
+ res:"A única marca que levou o carnaval para dentro de um hotel de luxo carioca.",
+ acoes:[
+  {ano:"2025 e 2026",img:"c8fe806b",t:"Camarotes, Baile do Copa e Fasano Rio",ag:"Não informada",onde:"Hotel Fasano Rio · camarotes Lounge Carioca, Quem, Folia Tropical, Rio Praia, Arpoador, Mar e Allegria · Baile do Copa",
+   oque:"Reflexologia, manicure, barbearia e maquiagem para hóspedes do Fasano. Carrinho de sorvete assinado no Baile do Copa e presença em uma dezena de camarotes.",
+   porque:"Alcança o hóspede estrangeiro de alta renda fora da avenida.",
+   f:["https://rotacult.com.br/2026/02/granado-promove-diversas-acoes-no-carnaval-2026/","https://www.meioemensagem.com.br/marketing/marcas-investem-na-diversidade-das-festas-do-carnaval-brasileiro"]}
+ ]},
+{id:"mastercard",nome:"Mastercard",sub:"Priceless",cat:"Finanças",cid:["São Paulo","Rio","Salvador","Belo Horizonte"],img:"987fa543",mec:["acesso","servico","conteudo"],
+ res:"Resolveu o perrengue da catraca e cozinhou para o camarote dos executivos.",
+ acoes:[
+  {ano:"2026",img:"987fa543",t:"Não passe perrengue, passe seu Mastercard",ag:"WMcCann",onde:"Metrô Vila Madalena e República, São Paulo · também Rio, Salvador e BH",
+   oque:"Pagamento por aproximação na catraca, estações de recarga de celular e água grátis. Parceria inédita com o perfil oficial do Metrô SP e o personagem de IA Catraquinha.",
+   porque:"Utilidade real no caminho até o bloco, com humor de rede social.",
+   f:["https://marcasmais.com.br/minforma/noticias/comunicacao/mastercard-viabiliza-carnaval-sem-perrengue-ao-incentivar-o-uso-do-cartao-no-transporte/"]},
+  {ano:"2026",img:"3fd6a52b",t:"Notiê by Priceless",ag:"Não informada",onde:"Camarote Bar Brahma, Anhembi, São Paulo",
+   oque:"Restaurante do chef Onildo Rocha servindo os lounges corporativos do camarote.",
+   porque:"A única presença de bandeira de cartão voltada a decisores no carnaval de SP.",
+   f:["https://www.promoview.com.br/camarote-bar-brahma-cbb-amplia-protagonismo-das-marcas-no-carnaval-de-sp","https://www.cnnbrasil.com.br/viagemegastronomia/viagem/carnaval-2026-conheca-os-menus-dos-principais-camarotes-do-brasil/"]}
+ ]},
+{id:"nubank",nome:"Nubank",sub:"Modo Rua · Ultravioleta",cat:"Finanças",cid:["Salvador","Belo Horizonte","Digital"],img:"5f68aaff",mec:["servico","conteudo"],
+ res:"Transformou segurança do celular no assunto da marca no carnaval.",
+ acoes:[
+  {ano:"2026",img:"5f68aaff",t:"Modo Rua com Paolla Oliveira",ag:"Nubank Creative Hub (interna)",onde:"Trios de Pedro Sampaio em Salvador e Belo Horizonte · digital a partir de 3/02",
+   oque:"Paolla Oliveira saiu do posto de rainha de bateria para a rua. Lançamento do Pix Protegido e quiz com o Spotify que levou fãs ao trio com viagem e hospedagem.",
+   porque:"O Modo Rua protege mais de 5 milhões de clientes, e o Nubank ficou entre as marcas mais citadas nas redes no carnaval.",
+   f:["https://www.meioemensagem.com.br/comunicacao/nubank-escolhe-paolla-oliveira-para-falar-sobre-seguranca-no-carnaval","https://livemarketing.com.br/nubank-ativa-modo-rua-no-carnaval-com-paolla-oliveira-e-pedro-sampaio","https://nu.com/en/newsroom/consumers/nubank-activates-street-mode-during-carnaval-with-paolla-oliveira-and-takes-fans-to-pedro-sampaios-parade"]}
+ ]},
+{id:"airbnb",nome:"Airbnb",sub:"Plataforma oficial de hospedagem",cat:"Viagem e hotel",cid:["Rio"],img:"3f1cdc8f",mec:["acesso","servico","cultura","conteudo"],
+ res:"Hospedagem oficial do carnaval de rua e uma tarde nos bastidores do Bola Preta.",
+ acoes:[
+  {ano:"2026",img:"3f1cdc8f",t:"Viva o Carnaval de Rua do Rio com Paolla Oliveira",ag:"Não informada",onde:"Sede do Cordão da Bola Preta, Rio",
+   oque:"Experiência Original para até 10 adultos: bastidores, feijoada, oficina de percussão e desfile no trio. Atendimento reforçado com mais de 1.000 profissionais, cerca de 30% a mais que em 2025.",
+   porque:"Experiência exclusiva vendida como produto. Em 2025, a plataforma recebeu mais de 80 mil hóspedes na cidade no período.",
+   f:["https://news.airbnb.com/br/airbnb-anuncia-patrocinio-e-se-torna-a-plataforma-oficial-de-acomodacoes-do-carnaval-de-rua-do-rio-2026/","https://www.meioemensagem.com.br/marketing/airbnb-patrocina-carnaval-de-rua-do-rio-2026"]}
+ ]},
+{id:"fasano",nome:"Fasano",sub:"Hotelaria de luxo",cat:"Viagem e hotel",cid:["Salvador"],img:"61dcfee5",mec:["acesso","servico"],
+ res:"O hotel que montou um carnaval sob medida para o hóspede.",
+ acoes:[
+  {ano:"2026",img:"61dcfee5",t:"Carnaval sob medida no Fasano Salvador",ag:"Não informada",onde:"Fasano Salvador, Praça Castro Alves",
+   oque:"Programação de 12 a 18/02 com customização de abadá, maquiagem, esmaltação, massagem e curadoria de blocos e camarotes.",
+   porque:"O concierge vira produto: o hóspede terceiriza a escolha do carnaval.",
+   f:["https://robbreportbrasil.com.br/robb-report-brasil/noticias/viagem-e-turismo/fasano-salvador-transforma-o-carnaval-2026-em-uma-experiencia-sob-medida-no-coracao-da-cidade"]}
+ ]},
+{id:"azul",nome:"Azul",sub:"Companhia aérea",cat:"Viagem e hotel",cid:["Digital","São Paulo"],img:"7f4e24b8",mec:["servico","cultura"],
+ res:"Um jingle que costura os ritmos de cada praça, com 530 voos extras.",
+ acoes:[
+  {ano:"2026",img:"7f4e24b8",t:"O Carnaval do Brasil é Azul",ag:"Africa Creative",onde:"Campanha nacional · presença no Camarote Bar Brahma, Anhembi, SP",
+   oque:"Filme com jingle original misturando ritmos regionais, 530 voos extras e 72,4 mil assentos entre 12 e 22/02.",
+   porque:"Única aérea com campanha própria de carnaval no levantamento.",
+   f:["https://brasilturis.com.br/2026/01/16/azul-campanha-carnaval-2026-voos-extras-brasil/","https://aeroin.net/celebrando-a-diversidade-do-carnaval-no-brasil-azul-lanca-a-campanha-o-carnaval-do-brasil-e-azul-assista-e-veja-como-ficou/"]}
+ ]},
+{id:"havaianas",nome:"Havaianas",sub:"Alpargatas",cat:"Moda",cid:["Rio","São Paulo"],img:"e06d4b7e",mec:["produto","servico","continuidade"],
+ res:"Da Kombi na praia à chinelaria oficial do Camarote Nº1.",
+ acoes:[
+  {ano:"2026",img:"e06d4b7e",t:"Chinelaria oficial do Camarote Nº1",ag:"Não informada",onde:"Camarote Nº1, Sapucaí, Rio",
+   oque:"Estreia no camarote com chinelaria oficial e ativações no ponto de encontro, pela relação com Sabrina Sato, embaixadora da marca e nova sócia do Nº1.",
+   porque:"Resolve a dor real do salto na madrugada e fica na foto de quem sai.",
+   f:["https://livemarketing.com.br/havaianas-estreia-no-camarote-no1-e-amplia-presenca-no-carnaval-carioca"]},
+  {ano:"2025",t:"Tira o Pé, Vai de Havaianas",ag:"Não informada",onde:"Barraca do Pepe, Barra da Tijuca e Camarote Arpoador, Rio · Rodoviária Tietê e Linha Amarela do metrô, SP",
+   oque:"Pop-up numa Kombi na praia, presença em camarote e em pontos de trânsito de foliões.",
+   porque:"Marca de verão mais lembrada pelos influenciadores em 2025 (14%).",
+   f:["https://www.meioemensagem.com.br/marketing/marcas-investem-na-diversidade-das-festas-do-carnaval-brasileiro","https://promoview.com.br/pesquisa/marcas-carnaval-influenciadores-pesquisa"]}
+ ]},
+{id:"farm",nome:"Farm Rio",sub:"Azzas 2154",cat:"Moda",cid:["Rio"],img:"6c7b5033",mec:["objeto"],
+ res:"A sacola que 1.800 convidados levaram do Baile da Vogue.",
+ acoes:[
+  {ano:"2026",img:"6c7b5033",t:"Gift bag oficial do Baile da Vogue",ag:"Não informada",onde:"Baile da Vogue, Copacabana Palace, Rio",
+   oque:"Azzas 2154 e Farm Rio assinaram as 1.800 gift bags do baile.",porque:"Produto nas mãos do público mais influente da noite.",
+   f:["https://www.promoview.com.br/baile-da-vogue-2026-vira-vitrine-de-ativacoes-de-marca/"]}
+ ]},
+{id:"reserva",nome:"Reserva",sub:"Azzas 2154",cat:"Moda",cid:["Salvador"],img:"1af13d8a",mec:["objeto","continuidade"],
+ res:"Veste o Camarote Salvador pelo segundo ano.",
+ acoes:[
+  {ano:"2026",img:"1af13d8a",t:"Camisas do Camarote Salvador",ag:"Não informada",onde:"Camarote Salvador, Barra-Ondina",
+   oque:"Criação das camisas oficiais do camarote pelo segundo ano e espaço de customização.",porque:"A marca vira o uniforme do público mais qualificado do circuito.",
+   f:["https://billboard.com.br/camarote-salvador-patrocinadores-carnaval-2026/","https://exame.com/negocios/com-atracao-internacional-camarote-salvador-quer-movimentar-r-210-mi-em-2026/"]}
+ ]},
+{id:"shopee",nome:"Shopee",sub:"Marketplace",cat:"Tecnologia",cid:["Rio","Digital"],img:"924f3f20",mec:["conteudo"],
+ res:"Abriu o tapete vermelho do Baile da Vogue para quem estava no app.",
+ acoes:[
+  {ano:"2026",img:"924f3f20",t:"Live do tapete vermelho",ag:"Não informada",onde:"Baile da Vogue, Copacabana Palace, Rio",
+   oque:"Estreia no baile com transmissão ao vivo do red carpet no app e no Instagram.",porque:"Leva um evento fechado de 1.600 a 1.800 convidados para a tela de milhões.",
+   f:["https://propmark.com.br/anunciantes/baile-da-vogue-reune-marcas-e-ativacoes-no-copacabana-palace/","https://www.promoview.com.br/baile-da-vogue-2026-vira-vitrine-de-ativacoes-de-marca/"]}
+ ]},
+{id:"chevrolet",nome:"Chevrolet",sub:"Equinox",cat:"Mobilidade",cid:["Salvador"],img:"f706eda2",mec:["produto","continuidade"],
+ res:"Patrocinadora master do Camarote Salvador em 2025.",
+ acoes:[
+  {ano:"2025",img:"f706eda2",t:"Master do Camarote Salvador",ag:"Não informada",onde:"Camarote Salvador, Barra-Ondina",
+   oque:"Segundo ano como master, com tatuagem temporária, Palco Salvador Club e o SUV Equinox em exposição. No mesmo camarote, a Sephora fez seu terceiro ano com espaço de maquiagem.",
+   porque:"Ocupou a cota que em 2026 ficou com a BYD.",
+   f:["https://livemarketing.com.br/camarote-salvador-celebra-25-anos-com-conceito-inovador-e-experiencias-unicas-no-carnaval-2025"]}
+ ]},
+{id:"forbes",nome:"Forbes",sub:"Forbes Radio",cat:"Mídia",cid:["Rio"],img:"4d9b19c7",mec:["acesso","conteudo"],
+ res:"Uma rádio que estreou no mundo transmitindo de dentro do camarote.",
+ acoes:[
+  {ano:"2026",img:"4d9b19c7",t:"Forbes Radio ao vivo do Alma Rio",ag:"Não informada",onde:"Camarote Alma Rio, camarote 2 da Sapucaí",
+   oque:"Estreia mundial da rádio da marca dentro do camarote do luxo silencioso: 3.000 m², cerca de 1.500 convidados por noite, cozinha de Morena Leite.",
+   porque:"Cerca de 37% do público do camarote é estrangeiro, o leitor certo para a marca.",
+   f:["https://forbes.com.br/forbes-life/2026/02/do-club-ao-samba-enredo-camarote-alma-rio-se-tornou-o-ponto-de-encontro-do-luxo-no-carnaval-2026/","https://braziljournal.com/o-negocio-cada-vez-mais-animado-dos-camarotes-da-sapucai/"]}
+ ]}
+];
+
+const VIDEOS = [
+ {id:"pBv8YfSow-U",m:"mercadopago",t:"Diretor de marketing explica o Camarote Suspenso",c:"CNN Brasil Money",d:"8:46"},
+ {id:"HrK5B9o0GUs",m:"diageo",t:"Baile da Arara com Tanqueray",c:"REC Multishow",d:"5:46"},
+ {id:"IeIdssGx1mA",m:"mercadopago",t:"Subindo no Camarote Suspenso a 25 metros",c:"Vlog de convidado",d:"37:16"},
+ {id:"zIZFoCuJGws",m:"bradesco",t:"Carnaval Bradesco 2026, aftermovie",c:"Novo Palco",d:"1:44"},
+ {id:"tANgs4T91rM",m:"natura",t:"Expresso 2222 homenageia Preta Gil",c:"Melhor da Tarde",d:"6:47"},
+ {id:"oSbVpfjyGG4",m:"airbnb",t:"Paolla Oliveira no Cordão da Bola Preta",c:"Splash UOL",d:"1:18"},
+ {id:"t4cIlOLptxo",m:"pernod",t:"Beefeater com Sabrina Sato no Baile da Vogue",c:"Eduardo Freitas, diretor de arte",d:"1:19"},
+ {id:"4gEIiwt4Wqs",m:"loreal",t:"Simbora Carnaval com Elseve no bloco da Anitta",c:"Sua Música",d:"5:24"},
+ {id:"eOrC-Gqfbtg",m:"eudora",t:"Eudora no carnaval de Salvador 2026",c:"Agência Boat",d:"1:31"},
+ {id:"zpfhGKNCQ4Q",m:"samsung",t:"S25 Ultra testado no carnaval do Rio",c:"Gabriel Miranda",d:"11:33"},
+ {id:"2TFRhAbF1cU",m:"azul",t:"O Carnaval do Brasil é Azul",c:"Azul Linhas Aéreas",d:"1:01"},
+ {id:"eNA6O-6CKgg",m:"havaianas",t:"Havaianas no carnaval 2026",c:"Moriva Filmes",d:"0:52"},
+ {id:"2hepECk9VTE",m:"mercadopago",t:"Filme de carnaval 2026 na TV Globo",c:"Soluções Territórios",d:"1:01"}
+];
+
+const TOP = [
+ {id:"mercadopago",img:"78f18630",t:"Camarote Suspenso",p:"Plataforma a 25 m de altura para 10 pessoas por vez. Escassez vira desejo e conversa espontânea.",onde:"Sapucaí, Rio · 2026"},
+ {id:"samsung",img:"ef8fa49f",t:"O celular como câmera oficial",p:"Todos os fotógrafos do camarote com o S25 Ultra e direito de imagem da LIESA. Prova de produto, não logo.",onde:"Sapucaí e Camarote Nº1, Rio · 2025"},
+ {id:"byd",img:"6cbed651",t:"O carro vira o transfer",p:"Sete elétricos levando convidados entre camarotes. O test-drive acontece sem ninguém chamar de test-drive.",onde:"Sapucaí, Rio e Barra-Ondina, Salvador · 2026"},
+ {id:"chandon",img:"28e43392",t:"Garçons com Jeroboam na pista",p:"Figurino autoral e garrafas gigantes invadindo a festa, em 25 pontos de 4 capitais.",onde:"Rio, SP, Salvador, Recife · 2026"},
+ {id:"diageo",img:"0e7cd583",t:"Um drinque para cada lugar",p:"Gold Spritz no Copa, Fitzgerald com frevo em Olinda, caipiroska de siriguela em homenagem a Preta Gil.",onde:"Rio, Olinda e Salvador · 2026"},
+ {id:"airbnb",img:"3f1cdc8f",t:"Bastidor do Bola Preta como produto",p:"Experiência para 10 pessoas com feijoada, percussão e trio. Acesso exclusivo vendido dentro da plataforma.",onde:"Centro do Rio · 2026"}
+];
+
+const FORA = [
+ {n:"Brahma",img:"ff33899b",p:"Abadá vintage com referência à Copa e Ancelotti no circuito com Léo Santana, em Salvador.",u:"https://exame.com/marketing/ancelotti-carnaval-e-copa-do-mundo-o-plano-da-brahma-para-um-ano-chave/"},
+ {n:"Amstel",img:"e7ba1e55",p:"Alceu Valença gravando o show em primeira pessoa com óculos Ray-Ban Meta no Marco Zero, Recife.",u:"https://www.promoview.com.br/amstel-fortalece-estrategia-cultural-no-carnaval-de-pernambuco"},
+ {n:"iFood",img:"b08ca9d2",p:"iFood Park com espelhos de IA no Camarote Salvador, drones no Farol e 120 mil chapéus em SP.",u:"https://www.promoview.com.br/ifood-transforma-o-carnaval-2026-em-plataforma-de-midia-experiencia-e-conexao"},
+ {n:"Uber Advertising",img:"e448f35a",p:"Journey Takeover: Cheetos ocupou a corrida inteira no app, até o ícone do carro.",u:"https://marcasmais.com.br/minforma/noticias/marketing/carnaval-2026-uber-advertising-lanca-journey-takeover-no-brasil-em-campanha-de-cheetos/"}
+];
+
+const ENDS = [
+ {n:"Baile da Vogue",img:"6c7b5033",v:"W6SvKqBA7dQ",l:"Copacabana Palace · Rio",num:"1.600 a 1.800 convidados · 24ª edição, tema Carnavália",m:["Beefeater","Jean Paul Gaultier","Kérastase","Eudora","Shopee","Farm Rio","Chandon"]},
+ {n:"Camarote Alma Rio",img:"4d9b19c7",v:"PRJb6Qz0wTU",l:"Camarote 2 · Sapucaí",num:"3.000 m² · 1.500 por noite · 37% estrangeiros",m:["Johnnie Walker Gold Label","MAC","Forbes Radio","Fotona"]},
+ {n:"Camarote Nº1",img:"82552e0f",v:"RYBNkEVLcjc",l:"Sapucaí · Rio",num:"A partir de R$ 4.550 · 30% da receita vem de patrocínio",m:["Brahma","Pernod Ricard","BYD","Havaianas","La Roche-Posay","Samsung (2025)","Colcci"]},
+ {n:"Camarotes MAR e Allegria",img:"f9ee9424",l:"Sapucaí · Rio",num:"Bar premium como atração principal",m:["Bombay Sapphire","Grey Goose","Patrón","Dewar’s","Chandon","Granado"]},
+ {n:"Camarote Bar Brahma",img:"3fd6a52b",l:"Anhembi · São Paulo",num:"Vendido como plataforma de relacionamento com executivos",m:["Mastercard Priceless","Omoda & Jaecoo","Movida","O Boticário","Beats","Chandon","Azul"]},
+ {n:"Camarote Salvador",img:"1af13d8a",v:"H1EjpxK8nNM",l:"Barra-Ondina · Salvador",num:"12 a 13 mil m² · 90% do público de fora · R$ 210 mi de impacto",m:["BYD","O Boticário","Eudora","Reserva","Beefeater","iFood"]},
+ {n:"Camarote Expresso 2222",img:"15138963",v:"tANgs4T91rM",l:"Edifício Oceania, Farol da Barra · Salvador",num:"1.500 convidados por noite · homenagem a Preta Gil",m:["Natura","Diageo","iFood"]},
+ {n:"Carvalheira na Ladeira",img:"0e7cd583",v:"DTSCn0Q_FbA",l:"Parque Memorial Arcoverde · Olinda",num:"Cerca de 10 mil pessoas por dia",m:["Bradesco","Tanqueray","Johnnie Walker","Chandon"]}
+];
+
+const JORNADA = [
+ {h:"Chegar",c:"var(--azul)",p:"Transporte, deslocamento e segurança até a festa.",m:["byd","mastercard","nubank","azul"]},
+ {h:"Se arrumar",c:"var(--rosa)",p:"Retoque, cabelo, pele e perfume antes e durante.",m:["natura","eudora","boticario","loreal","granado"]},
+ {h:"Brindar",c:"var(--ouro)",p:"O drinque assinado e o ritual de servir.",m:["diageo","chandon","pernod","bacardi"]},
+ {h:"Registrar",c:"var(--violeta)",p:"Foto, live, rádio e o post do dia seguinte.",m:["samsung","shopee","forbes","mercadopago"]},
+ {h:"Descansar",c:"var(--lima)",p:"Pé, corpo e hospedagem depois da madrugada.",m:["havaianas","fasano","airbnb","boticario"]},
+ {h:"Levar",c:"var(--laranja)",p:"O objeto que continua a marca em casa.",m:["farm","reserva","bradesco","bacardi"]}
+];
+
+const CONEXOES = [
+ {t:"Mesmo rosto, marcas diferentes",c:"var(--violeta)",l:[["Paolla Oliveira","Nubank e Airbnb"],["Sabrina Sato","Beefeater, Havaianas e sócia do Nº1"],["Anitta","Elseve e ensaios do Mercado Pago"]],p:"A celebridade virou ponte entre marcas. Ganha quem tem contrato de longo prazo, perde exclusividade de rosto."},
+ {t:"Mesma agência, raciocínios parecidos",c:"var(--turquesa)",l:[["WMcCann","L’Oréal 2025 e Mastercard 2026"],["Africa Creative","Natura 2025 e Azul 2026"],["Befoür e Haute","Execução física de Boticário e Mercado Pago"]],p:"WMcCann aposta em utilidade com mídia de mobilidade. Africa Creative costura ritmos regionais num só filme."},
+ {t:"Mesmo endereço, papéis complementares",c:"var(--ouro)",l:[["Baile da Vogue","Beleza, gin, moda e live"],["Camarote Salvador","Carro, beleza, moda, gin e comida"],["Carvalheira","Banco, gin, whisky e espumante"]],p:"O camarote monta a noite como um cardápio de cotas. Cada categoria resolve um momento e não disputa com a outra."}
+];
+
+const GUIA = [
+ {t:"Escolha o endereço antes da ideia",c:"var(--ouro)",p:"O público A não está na rua, está em cerca de oito endereços por praça. A ação nasce da planta do camarote, do baile ou da festa fechada, e não do contrário.",q:"Em que lugar meu público já está e paga para estar?",m:["diageo","forbes","farm"]},
+ {t:"Resolva um perrengue da noite",c:"var(--turquesa)",p:"Salto, bateria, sede, maquiagem derretendo, celular roubado, volta para casa. Utilidade bem desenhada é percebida como cuidado, não como publicidade.",q:"Qual dor some quando minha marca está lá?",m:["nubank","mastercard","havaianas","bradesco"]},
+ {t:"Ponha o produto para trabalhar",c:"var(--rosa)",p:"Logo em backdrop não diferencia ninguém num camarote com 20 cotas. O produto em uso vira prova: o celular fotografa, o carro leva, o perfume se experimenta.",q:"Como o convidado usa o produto sem perceber que é ação?",m:["samsung","byd","boticario"]},
+ {t:"Crie escassez legítima",c:"var(--violeta)",p:"Dez lugares, bastidor, altura, acesso antes de todo mundo. Para quem já tem acesso a quase tudo, o que conta é o que não cabe todo mundo.",q:"O que só poucos vão viver, e por quê?",m:["mercadopago","airbnb","granado"]},
+ {t:"Fale a língua da praça",c:"var(--laranja)",p:"Rio pede glamour e baile; Salvador pede trio e axé; Olinda pede frevo e ladeira. A mesma ação copiada entre praças perde força.",q:"Isso faria sentido em outra cidade? Se sim, ajuste.",m:["natura","diageo","azul"]},
+ {t:"Desenhe para o conteúdo",c:"var(--azul)",p:"A ativação física é pequena perto do que ela gera em tela. Rosto conhecido, squad de criadores e live multiplicam o alcance, mas precisam de um gesto fotografável.",q:"Qual é a imagem que todo mundo vai postar?",m:["chandon","shopee","pernod"]},
+ {t:"Volte no ano seguinte",c:"var(--lima)",p:"As marcas mais associadas ao endereço são as que voltam. Pense a ação como plataforma de três anos, com evolução, e não como estreia única.",q:"Como a edição 2 fica melhor que a 1?",m:["bradesco","eudora","reserva"]},
+ {t:"Meça o que virou relação",c:"var(--prata)",p:"Quase ninguém divulgou resultado. Cadastro qualificado, cartão emitido, test-drive agendado e cliente reativado são métricas que o público A permite e a diretoria entende.",q:"Qual número prova que valeu além do alcance?",m:["mercadopago","boticario","mastercard"]}
+];
+
+const LIVRES = [
+ ["Cartão e banco de alta renda","Personnalité, Select, BTG, XP, Amex e Visa Infinite não tinham ação documentada. Sala VIP, concierge e transfer são extensões naturais."],
+ ["Carro premium europeu","BMW, Audi, Volvo e Porsche ausentes. BYD ocupou sozinha o papel de transporte de luxo."],
+ ["Recuperação pós-carnaval","Quarta-feira de cinzas sem dono: sono, pele, hidratação, spa. Só Boticário e Granado encostaram no tema."],
+ ["Destilado no Recife","Olinda teve gin e whisky no Carvalheira, mas o Galo e os camarotes do Recife seguem dominados por cerveja."]
+];
+const RISCOS = [
+ ["Três beleza no mesmo camarote","Boticário, Eudora e Natura dividiram Salvador. Sem papel claro, o convidado não lembra quem fez o quê."],
+ ["Rosto repetido","Paolla, Sabrina e Anitta atravessam várias marcas. Contrato sem exclusividade de categoria dilui."],
+ ["Massa vestida de premium","Camarote grande com open bar de cerveja popular não conversa com o A. Escolha a cota pelo perfil, não pelo tamanho."],
+ ["Resultado invisível","Sem métrica de relação, a ação vira custo de presença e perde verba no ano seguinte."]
+];
+
+const LEMBRA = [["Brahma",25],["Skol",16],["Coca-Cola",5],["Heineken",3],["Itaipava",3]];
+const MOSAICO = ["28e43392","0e7cd583","6c7b5033","4d9b19c7","947e6418","2653c5e0","70884d72","1ca4c291","15138963","96cc773a","ba627c67","3f1cdc8f","5f68aaff","151730f8","987fa543","149e376f"];
+
+/* ---------- utilidades ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dom=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return u}};
+const byId=Object.fromEntries(MARCAS.map(m=>[m.id,m]));
+const foto=(h,cls="",lazy=true)=>h?`<div class="foto ${cls}"><img src="img/${h}.webp" alt="" ${lazy?'loading="lazy"':""} decoding="async">${IMGSRC[h]?`<span class="credito">${esc(IMGSRC[h])}</span>`:""}</div>`:"";
+const PIN='<svg width="12" height="14" viewBox="0 0 12 14" fill="none" aria-hidden="true"><path d="M6 13s4.5-4.2 4.5-7.5a4.5 4.5 0 1 0-9 0C1.5 8.8 6 13 6 13Z" stroke="currentColor" stroke-width="1.3"/><circle cx="6" cy="5.5" r="1.6" fill="currentColor"/></svg>';
+const PLAY='<span class="play" aria-hidden="true"><svg width="18" height="20" viewBox="0 0 18 20"><path d="M2 1.5v17L17 10Z" fill="#16131f"/></svg></span>';
+const video=v=>{const m=byId[v.m];return `<a class="video" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener" style="--c:${m?CAT[m.cat]:"var(--ouro)"}">
+ <div class="foto"><img src="vid/${v.id}.webp" alt="" loading="lazy">${PLAY}<span class="dur">${v.d}</span></div>
+ <span><b>${esc(v.t)}</b><small>${m?`<span class="mk">${esc(m.nome)}</span> · `:""}${esc(v.c)} · YouTube ↗</small></span></a>`};
+const botaoMarca=id=>`<button data-id="${id}">${esc(byId[id].nome)}</button>`;
+
+/* ---------- render ---------- */
+const nAcoes=MARCAS.reduce((s,m)=>s+m.acoes.length,0);
+const nFotos=new Set([...MARCAS.flatMap(m=>[m.img,...m.acoes.map(a=>a.img)]),...ENDS.map(e=>e.img),...FORA.map(f=>f.img)].filter(Boolean)).size;
+$("#stats").innerHTML=[[MARCAS.length,"marcas"],[nAcoes,"ações"],[nFotos,"fotos"],[VIDEOS.length+5,"vídeos"]].map(([v,l])=>`<div class="stat"><b data-n="${v}">${v}</b><span>${l}</span></div>`).join("");
+const cols=[[],[],[],[]];MOSAICO.forEach((h,i)=>cols[i%4].push(h));
+$("#mosaico").innerHTML=cols.map(c=>`<div class="coluna">${[...c,...c].map(h=>foto(h,"",false).replace('<span class="credito">','<span hidden>')).join("")}</div>`).join("");
+const nomes=MARCAS.map(m=>`<span>${esc(m.nome)}</span>`).join("");$("#faixa").innerHTML=nomes+nomes;
+
+$("#top").innerHTML=TOP.map((d,i)=>{const m=byId[d.id];return `<button class="ideia" style="--c:${CAT[m.cat]}" data-id="${m.id}">
+ <div style="position:relative">${foto(d.img)}<span class="rank">${i+1}</span></div>
+ <span class="corpo"><span class="marca">${esc(m.nome)}</span><h3>${esc(d.t)}</h3><p>${esc(d.p)}</p><span class="onde">${PIN}${esc(d.onde)}</span></span></button>`}).join("");
+
+$("#lista-videos").innerHTML=VIDEOS.map(video).join("");
+$("#v-dir").onclick=()=>$("#lista-videos").scrollBy({left:360,behavior:"smooth"});
+$("#v-esq").onclick=()=>$("#lista-videos").scrollBy({left:-360,behavior:"smooth"});
+
+$("#grade").innerHTML=MARCAS.map(m=>`<button class="card" style="--c:${CAT[m.cat]}" data-id="${m.id}" data-cid="${m.cid.join("|")}" data-cat="${m.cat}"
+ data-q="${esc((m.nome+" "+m.sub+" "+m.acoes.map(a=>a.t+" "+a.onde+" "+a.ag).join(" ")).toLowerCase())}">
+ ${foto(m.img)}<span class="corpo"><span class="top-row"><span class="cat">${m.cat}</span><span class="n">${m.acoes.length} ${m.acoes.length>1?"ações":"ação"}${VIDEOS.some(v=>v.m===m.id)?" · vídeo":""}</span></span>
+ <h3>${esc(m.nome)}</h3><p class="sub">${esc(m.sub)}</p><p class="res">${esc(m.res)}</p>
+ <span class="cidades">${m.cid.map(c=>`<span class="cid">${c}</span>`).join("")}</span></span></button>`).join("")+`<p class="vazio" id="vazio" hidden>Nenhuma marca com esse filtro.</p>`;
+
+$("#fora").innerHTML=FORA.map(f=>`<a href="${f.u}" target="_blank" rel="noopener">${foto(f.img).replace(/<span class="credito">.*?<\/span>/,"")}<span><b>${esc(f.n)}</b><p>${esc(f.p)}</p></span></a>`).join("");
+
+$("#lista-end").innerHTML=ENDS.map(e=>`<article class="end">${foto(e.img)}${e.v?`<a class="vlink" href="https://www.youtube.com/watch?v=${e.v}" target="_blank" rel="noopener">▶ Ver vídeo</a>`:""}
+ <div class="in"><h3>${esc(e.n)}</h3><div class="loc">${esc(e.l)}</div><div class="num">${esc(e.num)}</div><div class="marcas">${e.m.map(x=>`<span>${esc(x)}</span>`).join("")}</div></div></article>`).join("");
+
+/* matriz */
+const mk=Object.keys(MEC);
+const tot=Object.fromEntries(mk.map(k=>[k,MARCAS.filter(m=>m.mec.includes(k)).length]));
+const maxT=Math.max(...Object.values(tot));
+$("#matriz").innerHTML=`<thead><tr><th style="text-align:left">Marca</th>${mk.map(k=>`<th data-k="${k}">${MEC[k].n}</th>`).join("")}</tr></thead>
+<tbody>${MARCAS.map(m=>`<tr data-mec="${m.mec.join(" ")}"><th data-id="${m.id}" style="--c:${CAT[m.cat]}">${esc(m.nome)}</th>${mk.map(k=>m.mec.includes(k)?`<td><span class="dot" style="--c:${MEC[k].c}" title="${MEC[k].n}"></span></td>`:`<td class="vazio-d"></td>`).join("")}</tr>`).join("")}</tbody>
+<tfoot><tr><th>Marcas que usaram</th>${mk.map(k=>`<td>${tot[k]}<div class="barra-m" style="width:${tot[k]/maxT*80}%;background:${MEC[k].c}"></div></td>`).join("")}</tr></tfoot>`;
+$("#matriz").addEventListener("click",e=>{const th=e.target.closest("tbody th");if(th)abrir(th.dataset.id);});
+$("#matriz thead").addEventListener("mouseover",e=>{const th=e.target.closest("th[data-k]");if(!th)return;const k=th.dataset.k;
+  document.querySelectorAll("#matriz thead th").forEach(t=>t.classList.toggle("ativo",t===th));
+  document.querySelectorAll("#matriz tbody tr").forEach(tr=>tr.classList.toggle("dim",!tr.dataset.mec.split(" ").includes(k)));});
+$("#matriz thead").addEventListener("mouseleave",()=>{document.querySelectorAll("#matriz .dim").forEach(t=>t.classList.remove("dim"));document.querySelectorAll("#matriz .ativo").forEach(t=>t.classList.remove("ativo"));});
+$("#mecs").innerHTML=mk.sort((a,b)=>tot[b]-tot[a]).map(k=>`<div class="mec"><b class="q">${tot[k]} de ${MARCAS.length} marcas</b><h4 style="color:${MEC[k].c}">${MEC[k].n}</h4><p>${MEC[k].p}</p></div>`).join("");
+
+$("#jornada").innerHTML=JORNADA.map((j,i)=>`<div class="etapa" style="--c:${j.c}"><span class="hora">${String(i+1).padStart(2,"0")}</span><h4>${j.h}</h4><p>${j.p}</p><div class="ms">${j.m.map(botaoMarca).join("")}</div></div>`).join("");
+$("#lista-con").innerHTML=CONEXOES.map(c=>`<div class="conexao"><p class="eyebrow" style="color:${c.c}">Conexão</p><h4>${c.t}</h4><div class="liga">${c.l.map(([a,b])=>`<div><b>${a}</b><i>→</i><span>${b}</span></div>`).join("")}</div><p style="margin:16px 0 0;font-size:13.5px;color:var(--suave)">${c.p}</p></div>`).join("");
+$("#lista-guia").innerHTML=GUIA.map((g,i)=>`<div class="passo" style="--c:${g.c}"><span class="num">${i+1}</span><div><h3>${g.t}</h3><p>${g.p}</p></div><div><div class="pergunta"><b>Pergunta para o briefing</b>${g.q}</div><div class="quem">${g.m.map(botaoMarca).join("")}</div></div></div>`).join("");
+$("#livres").innerHTML=LIVRES.map(([a,b])=>`<li><b>${a}.</b> <span>${b}</span></li>`).join("");
+$("#riscos").innerHTML=RISCOS.map(([a,b])=>`<li><b>${a}.</b> <span>${b}</span></li>`).join("");
+$("#barras").innerHTML=LEMBRA.map(([n,v])=>`<div class="barra"><span>${n}</span><span class="t"><i style="width:${v/25*100}%"></i></span><b>${v}%</b></div>`).join("");
+
+/* ---------- filtros ---------- */
+const estado={cid:"Todas",cat:"Todas",q:""};
+function chips(el,lista,chave,cores){
+  el.insertAdjacentHTML("beforeend",["Todas",...lista].map(v=>`<button class="chip" data-v="${v}" aria-pressed="${v==="Todas"}" ${cores&&cores[v]?`style="--c:${cores[v]}"`:""}>${cores&&cores[v]?"<i></i>":""}${v}</button>`).join(""));
+  el.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;el.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));estado[chave]=b.dataset.v;filtrar();});
+}
+chips($("#f-cidade"),CIDADES,"cid");
+chips($("#f-cat"),Object.keys(CAT).filter(c=>MARCAS.some(m=>m.cat===c)),"cat",CAT);
+$("#busca").addEventListener("input",e=>{estado.q=e.target.value.trim().toLowerCase();filtrar();});
+const temGsap=typeof gsap!=="undefined";
+const reduz=matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(temGsap){gsap.registerPlugin(ScrollTrigger);if(window.Flip)gsap.registerPlugin(Flip);}
+function filtrar(){
+  const cards=[...document.querySelectorAll(".card")];
+  const st=temGsap&&window.Flip&&!reduz?Flip.getState(cards):null;let n=0;
+  cards.forEach(c=>{const ok=(estado.cid==="Todas"||c.dataset.cid.split("|").includes(estado.cid))&&(estado.cat==="Todas"||c.dataset.cat===estado.cat)&&(!estado.q||c.dataset.q.includes(estado.q));c.hidden=!ok;if(ok)n++;});
+  $("#vazio").hidden=n>0;$("#contagem").textContent=`${n} de ${MARCAS.length}`;
+  if(st)Flip.from(st,{duration:.55,ease:"power3.inOut",stagger:.02,onEnter:els=>gsap.fromTo(els,{scale:.9,autoAlpha:0},{scale:1,autoAlpha:1,duration:.45,stagger:.03,ease:"power2.out"})});
+  if(temGsap)ScrollTrigger.refresh();
+}
+filtrar();
+
+/* ---------- gaveta ---------- */
+let ultimoFoco=null;
+function abrir(id){
+  const m=byId[id];if(!m)return;ultimoFoco=document.activeElement;
+  const g=$("#gaveta");g.style.setProperty("--c",CAT[m.cat]);
+  const vs=VIDEOS.filter(v=>v.m===id);
+  g.innerHTML=`<div class="g-top"><span class="cat">${m.cat}</span><button class="fechar" id="fechar" aria-label="Fechar">✕</button></div>
+   <h2 id="g-nome">${esc(m.nome)}</h2><p class="g-sub">${esc(m.sub)} · ${m.cid.join(", ")}</p><p class="g-res">${esc(m.res)}</p>
+   <div class="g-mecs">${m.mec.map(k=>`<span>${MEC[k].n}</span>`).join("")}</div>
+   ${m.acoes.map(a=>`<article class="acao">${foto(a.img,"",false)}<div class="acao-h"><span class="ano">${esc(a.ano)}</span><span class="ag">Agência: ${esc(a.ag)}</span></div>
+     <h3>${esc(a.t)}</h3>
+     <dl class="campo"><dt>Onde</dt><dd>${esc(a.onde)}</dd></dl>
+     <dl class="campo"><dt>O que foi feito</dt><dd>${esc(a.oque)}</dd></dl>
+     <dl class="campo"><dt>Por que se destacou</dt><dd>${esc(a.porque)}</dd></dl>
+     ${a.alerta?`<p class="alerta">Atenção: ${esc(a.alerta)}</p>`:""}
+     <div class="fontes">${a.f.map(u=>`<a href="${u}" target="_blank" rel="noopener">${dom(u)} ↗</a>`).join("")}</div></article>`).join("")}
+   ${vs.length?`<div class="acao"><p class="eyebrow">Vídeos</p><div class="g-videos">${vs.map(video).join("")}</div></div>`:""}`;
+  $("#veu").hidden=false;g.hidden=false;document.body.style.overflow="hidden";g.scrollTop=0;
+  $("#fechar").addEventListener("click",fechar);$("#fechar").focus();
+  if(temGsap&&!reduz){
+    gsap.fromTo("#veu",{autoAlpha:0},{autoAlpha:1,duration:.3});
+    gsap.fromTo(g,{xPercent:100},{xPercent:0,duration:.65,ease:"expo.out"});
+    gsap.fromTo(g.querySelectorAll("h2,.g-sub,.g-res,.g-mecs,.acao"),{y:30,autoAlpha:0},{y:0,autoAlpha:1,duration:.6,stagger:.07,delay:.15,ease:"power3.out"});
+    gsap.fromTo(g.querySelectorAll(".acao .foto img"),{scale:1.18},{scale:1,duration:1.4,ease:"expo.out",delay:.2});
+  }
+}
+function fechar(){
+  const g=$("#gaveta");if(g.hidden)return;
+  const fim=()=>{g.hidden=true;$("#veu").hidden=true;document.body.style.overflow="";ultimoFoco&&ultimoFoco.focus();};
+  if(temGsap&&!reduz){gsap.to("#veu",{autoAlpha:0,duration:.3});gsap.to(g,{xPercent:100,duration:.4,ease:"power3.in",onComplete:fim});}else fim();
+}
+document.addEventListener("click",e=>{const b=e.target.closest(".card,.ideia,.etapa .ms button,.passo .quem button");if(b)abrir(b.dataset.id);});
+$("#veu").addEventListener("click",fechar);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")fechar();});
+
+/* ---------- movimento ---------- */
+if(temGsap&&!reduz){
+  const tl=gsap.timeline({defaults:{ease:"expo.out"}});
+  tl.from("#mosaico",{scale:1.3,duration:2.4,ease:"power2.out"},0)
+    .from("#hero-title .w>span",{yPercent:110,duration:1.1,stagger:.08},.2)
+    .from("#hero-eyebrow",{y:12,autoAlpha:0,duration:.6},.2)
+    .from(".hero .lede",{y:16,autoAlpha:0,duration:.8},.55)
+    .from(".stat",{y:20,autoAlpha:0,duration:.7,stagger:.06},.7);
+  document.querySelectorAll(".stat b").forEach(b=>{const o={v:0};tl.to(o,{v:+b.dataset.n,duration:1.4,ease:"power2.out",onUpdate:()=>b.textContent=Math.round(o.v)},.8);});
+  document.querySelectorAll(".coluna").forEach((c,i)=>gsap.to(c,{yPercent:i%2?0:-50,startAt:{yPercent:i%2?-50:0},duration:40+i*6,ease:"none",repeat:-1}));
+  gsap.to("#mosaico",{yPercent:12,ease:"none",scrollTrigger:{trigger:".hero",start:"top top",end:"bottom top",scrub:true}});
+  gsap.to("#faixa",{xPercent:-50,duration:60,ease:"none",repeat:-1});
+
+  const mm=gsap.matchMedia();
+  mm.add("(min-width: 1000px)",()=>{
+    const tr=$("#top");tr.classList.add("h");
+    const dist=()=>tr.scrollWidth-document.documentElement.clientWidth+80;
+    const tw=gsap.to(tr,{x:()=>-dist(),ease:"none",scrollTrigger:{trigger:"#destaques",start:"top top",end:()=>"+="+dist(),pin:true,scrub:.8,invalidateOnRefresh:true}});
+    return()=>{tr.classList.remove("h");gsap.set(tr,{x:0});};
+  });
+
+  ScrollTrigger.batch(".end,.mec,.conexao,.passo,.caixa,.fora a,.video",{start:"top 92%",once:true,
+    onEnter:els=>gsap.from(els,{y:40,duration:.9,stagger:.08,ease:"power3.out"})});
+  ScrollTrigger.batch(".card",{start:"top 94%",once:true,onEnter:els=>gsap.from(els,{y:34,scale:.97,duration:.8,stagger:.05,ease:"power3.out"})});
+  gsap.utils.toArray(".end .foto img").forEach(img=>gsap.fromTo(img,{yPercent:-8,scale:1.15},{yPercent:8,ease:"none",scrollTrigger:{trigger:img.closest(".end"),start:"top bottom",end:"bottom top",scrub:true}}));
+  gsap.from("#matriz .dot",{scale:0,duration:.5,stagger:{each:.012,from:"start"},ease:"back.out(2)",scrollTrigger:{trigger:"#matriz",start:"top 80%"}});
+  gsap.from("#matriz .barra-m",{scaleX:0,duration:1,stagger:.08,ease:"expo.out",scrollTrigger:{trigger:"#matriz tfoot",start:"top 95%"}});
+  ScrollTrigger.create({trigger:"#jornada",start:"top 80%",once:true,onEnter:()=>{
+    gsap.fromTo(".etapa",{y:40},{y:0,duration:.8,stagger:.12,ease:"power3.out"});
+    gsap.fromTo(".etapa .hora",{scale:.4},{scale:1,duration:.7,stagger:.12,ease:"back.out(2.5)"});}});
+  gsap.from(".barra .t i",{scaleX:0,duration:1.2,stagger:.1,ease:"expo.out",scrollTrigger:{trigger:"#barras",start:"top 85%"}});
+  gsap.utils.toArray(".sec-head h2").forEach(h=>gsap.from(h,{x:-28,duration:1,ease:"power3.out",scrollTrigger:{trigger:h,start:"top 90%"}}));
+  gsap.utils.toArray(".passo .num").forEach(n=>gsap.from(n,{yPercent:60,rotate:-8,duration:.9,ease:"back.out(1.6)",scrollTrigger:{trigger:n,start:"top 88%"}}));
+}
+
+/* ---------- paetês ---------- */
+(function(){
+  const cv=$("#paetes"),ctx=cv.getContext("2d"),cores=["#f2c14e","#ff5fa2","#37e0c4","#b492ff","#ffffff"];
+  let W,H,ps=[],dpr=Math.min(devicePixelRatio||1,2);
+  function tam(){const r=cv.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);ps=Array.from({length:Math.round(Math.min(80,W/16))},()=>novo(true));}
+  function novo(ini){return{x:Math.random()*W,y:ini?Math.random()*H:-10,r:2+Math.random()*4.5,vy:.25+Math.random()*.7,vx:(Math.random()-.5)*.3,a:Math.random()*6.28,va:.01+Math.random()*.04,c:cores[Math.random()*cores.length|0],o:.4+Math.random()*.5}}
+  function quadro(){ctx.clearRect(0,0,W,H);for(const p of ps){p.y+=p.vy;p.x+=p.vx+Math.sin(p.a)*.25;p.a+=p.va;if(p.y>H+10)Object.assign(p,novo(false));
+    const b=Math.abs(Math.cos(p.a));ctx.globalAlpha=p.o*(.35+.65*b);ctx.fillStyle=p.c;ctx.beginPath();ctx.ellipse(p.x,p.y,p.r,p.r*Math.max(.15,b),p.a,0,6.28);ctx.fill();}
+    ctx.globalAlpha=1;if(!reduz)requestAnimationFrame(quadro);}
+  tam();addEventListener("resize",tam);quadro();
+})();
+</script>
+
+</body>
+</html>
